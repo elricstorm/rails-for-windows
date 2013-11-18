@@ -1,10 +1,10 @@
 Rails for Windows
 ================================
 
-*View the [source of this content](http://github.github.com/github-flavored-markdown/sample_content.html).*
+Special thanks to:
 
-Special Thanks to:
+*Luis Lavena - [RubyInstaller & Windows Development Support](http://rubyinstaller.org/).*
+*Rob Reynolds/Ferventcoder - [Chocolatey Package Manager Support and Development for Ruby Packages](http://chocolatey.org/).*
+*Daniel Kehoe - [Rails 4.0 Support, Tutorials, and Documentation](http://danielkehoe.com/).*
 
-RubyInstaller & Windows Development Support:  Luis Lavena &
-Chocolatey Package Manager Support and Development for Ruby Packages:  Rob Reynolds | Ferventcoder
-Rails 4.0 Support, Tutorials, and Documentation:  Daniel Keyhoe
+...
