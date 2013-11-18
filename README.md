@@ -125,11 +125,11 @@ in order to build and use the native gem. A “sane” environment typically mea
 and similar *nix build tools installed.
 
 This expectation of a “sane” build environment is not always true for Windows users and is the primary reason 
-why the DevKit was created. The DevKit, based upon MSYS and MinGW components, is an easy-to-install and 
+why the <b>DevKit</b> was created. The DevKit, based upon MSYS and MinGW components, is an easy-to-install and 
 easy-to-use solution for quickly setting up a “sane” build environment, enabling you to use most native 
 RubyGems developed by the Ruby community.
 
-The <b>DevKit</b> is used to build MRI Ruby and the required dependencies needed to deliver the RubyInstaller for 
+The DevKit is used to build MRI Ruby and the required dependencies needed to deliver the RubyInstaller for 
 Windows. Many community members also use the DevKit as their “foundation” toolkit for building other 
 native software.  The DevKit is currently available for download as a self-extracting archive and a 
 Windows installer is in development.
