@@ -25,6 +25,15 @@ that seem viable, the information may be outdated or unusable.  This leads many 
 of absolute frustration.  The goal for this project is to provide you as much information as possible about Windows,
 Ruby, Rails, virtual development, package management, and more.
 
+### Why use Windows when...
+
+    Linux has apt-get for package management
+    
+Windows has NuGet, Chocolatey, Boxstarter, and a host of other package management configurations.  Chocolatey is 
+the equivallent of apt-get for windows. Boxstarter, coupled with chocolately, allows you to do remote installations, automate installs from 
+the web, network shares, usb keys, or locally.  It even has reboot resiliency with administrative rights from 
+start to finish. The NuGet software that helps us to achieve package management is also <i>open source</i>. 
+
 DOCUMENTATION BEING UPDATED DAILY
 ==================================
 
