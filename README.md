@@ -82,7 +82,7 @@ When you are finished reading everything (<i>this includes the wiki</i>), you sh
 * How to find reference material on the web
 * How to contribute to the discussion
 
-### References and Definitions
+### References and Definitions (each term has a link directly to the site)
 
 #### *[NuGet] (http://www.nuget.org/)*
 
@@ -113,11 +113,30 @@ installation.
 
 #### *[RubyInstaller, DevKit, and PIK] (http://rubyinstaller.org/)*
 
-The RubyInstaller project provides a self-contained Windows-based installer that contains a Ruby language 
+The <b>RubyInstaller</b> project provides a self-contained Windows-based installer that houses the Ruby language 
 execution environment, a baseline set of required RubyGems and extensions, and the full text of the wonderful 
-book, The Book of Ruby.
+book, The Book of Ruby.  The Ruby Installer is currently available only for the Windows platform.
 
-The Ruby Installer is currently available only for the Windows platform.
+One of the challenges many Ruby on Windows users have is how to easily use native RubyGems from the community 
+such as the rdiscount or curb gems. In many cases this isn’t a problem because the extension author has 
+provided a binary gem compatible with the users Ruby environment. In other cases, only the extension source 
+code is available in the gem and the user is expected to have a “sane” environment installed and configured 
+in order to build and use the native gem. A “sane” environment typically means a system with make, gcc, sh 
+and similar *nix build tools installed.
+
+This expectation of a “sane” build environment is not always true for Windows users and is the primary reason 
+why the DevKit was created. The DevKit, based upon MSYS and MinGW components, is an easy-to-install and 
+easy-to-use solution for quickly setting up a “sane” build environment, enabling you to use most native 
+RubyGems developed by the Ruby community.
+
+The <b>DevKit</b> is used to build MRI Ruby and the required dependencies needed to deliver the RubyInstaller for 
+Windows. Many community members also use the DevKit as their “foundation” toolkit for building other 
+native software.  The DevKit is currently available for download as a self-extracting archive and a 
+Windows installer is in development.
+
+<b>Pik</b> is a tool to manage multiple versions of ruby on Windows. It can be used from the Windows command 
+line (cmd.exe), Windows PowerShell, or Git Bash.
+
 
 #### *[Rails Examples and Tutorials] (http://railsapps.github.io/)*
 
