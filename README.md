@@ -1,6 +1,8 @@
 Rails for Windows
 ================================
 
+<pre>By Joel Dezenzio (ie. Elricstorm)</pre>
+
 Special thanks to:
 
 *  *Luis Lavena - [RubyInstaller & Windows Development Support](http://rubyinstaller.org/).*
