@@ -41,6 +41,21 @@ managing windows systems.  It makes use of pipes, similar to Linux. However linu
 takes advantage of using objects with the *[pipeline] (http://www.howtogeek.com/138121/geek-school-learning-powershell-objects/)*.  It 
 is also used with Chocolatey and package management. 
 
+    Ruby is hard to install on Windows
+
+You can manually install Ruby using *[Rubyinstaller] (http://rubyinstaller.org/)* and you can also automate 
+installations for Ruby using chocolatey or boxstarter.  All of the installation methods are easy and pain-free. Windows 
+installers can also make use of the DevKit which will build and use native C/C++ extensions automatically 
+when required during gem installations.
+
+    Linux has RVM
+    
+Windows has PIK.  There are also new free Ruby Stack providers like *[Bitnami] (https://bitnami.com/stack/ruby)* which 
+allow developers to deploy a complete environment stack with one click installation.
+
+The main thing to realize is that Windows has come far and there are many contributors across many projects that 
+invest their time to help new developers get up to speed quickly.  It can be done.
+
 DOCUMENTATION BEING UPDATED DAILY
 ==================================
 
