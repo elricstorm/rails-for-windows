@@ -7,7 +7,7 @@ Special thanks to:
 
 *  *Luis Lavena - [RubyInstaller & Windows Development Support](http://rubyinstaller.org/).*
 *  *Rob Reynolds/Ferventcoder - [Chocolatey Package Manager Support](http://chocolatey.org/).*
-*  *Daniel Kehoe - [Rails 4.0 Support, Tutorials, and Documentation](http://danielkehoe.com/).*
+*  *Daniel Kehoe - [Rails 4.0 Support, Tutorials, and Documentation](http://railsapps.github.io/).*
 *  *Matt Wrock - [Boxstarter](http://boxstarter.org/).*
 
 What is Rails for Windows?
@@ -110,6 +110,16 @@ by PowerShell.
 Chocolatey.org houses over 1,400 unique packages (at the time of this writing) and is growing tremendously.  It 
 houses a huge amount of core development components and applications, some of which we will be using for our 
 installation.
+
+#### *[RubyInstaller, DevKit, and PIK] (http://rubyinstaller.org/)*
+
+The RubyInstaller project provides a self-contained Windows-based installer that contains a Ruby language 
+execution environment, a baseline set of required RubyGems and extensions, and the full text of the wonderful 
+book, The Book of Ruby.
+
+The Ruby Installer is currently available only for the Windows platform.
+
+#### *[Rails Examples and Tutorials] (http://railsapps.github.io/)*
 
 
 
