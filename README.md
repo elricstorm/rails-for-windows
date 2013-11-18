@@ -1,6 +1,10 @@
 Rails for Windows
 ================================
 
-*The project is not yet operational.  Please come back later as updates begin.
+*View the [source of this content](http://github.github.com/github-flavored-markdown/sample_content.html).*
 
-New Test
+Special Thanks to:
+
+RubyInstaller & Windows Development Support:  Luis Lavena &
+Chocolatey Package Manager Support and Development for Ruby Packages:  Rob Reynolds | Ferventcoder
+Rails 4.0 Support, Tutorials, and Documentation:  Daniel Keyhoe
