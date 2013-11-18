@@ -81,6 +81,22 @@ When you are finished reading everything (<i>this includes the wiki</i>), you sh
 * How to find reference material on the web
 * How to contribute to the discussion
 
+### References and Definitions
+
+#### *[NuGet] (http://www.nuget.org/)*
+
+Towards mid-2010, the .NET community was introduced to OpenWrap, immediately followed by a Microsoft announcement 
+that they joined forces with a .NET package management project called Nubular (Nu). Based on RubyGems, it has 
+been rewritten to remove the Ruby dependency. The Nu command line package management system was now to be called 
+NuPack. It was eventually rebranded to NuGet.
+
+NuGet is the package manager for the Microsoft development platform including .NET.  When you use NuGet to install 
+a package, it copies the library files to your solution and automatically updates your project 
+(adds references, change config files, etc.). If you remove a package, NuGet reverses whatever changes it made so 
+that no clutter is left.
+
+You can develop your own package and share it via the NuGet Gallery. 
+
 DOCUMENTATION BEING UPDATED DAILY
 ==================================
 
