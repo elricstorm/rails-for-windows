@@ -86,8 +86,8 @@ When you are finished reading everything (<i>this includes the wiki</i>), you sh
 #### *[NuGet] (http://www.nuget.org/)*
 
 Towards mid-2010, the .NET community was introduced to OpenWrap, immediately followed by a Microsoft announcement 
-that they joined forces with a .NET package management project called Nubular (Nu). Based on RubyGems, it has 
-been rewritten to remove the Ruby dependency. The Nu command line package management system was now to be called 
+that they joined forces with a .NET package management project called Nubular (Nu). Based on RubyGems, it was 
+rewritten to remove the Ruby dependency. The Nu command line package management system was now to be called 
 NuPack. It was eventually rebranded to NuGet.
 
 NuGet is the package manager for the Microsoft development platform including .NET.  When you use NuGet to install 
@@ -96,6 +96,16 @@ a package, it copies the library files to your solution and automatically update
 that no clutter is left.
 
 You can develop your own package and share it via the NuGet Gallery. 
+
+#### *[Chocolatey] (http://www.chocolatey.org/)*
+
+Chocolatey is the equivallent of a package manager for Windows, similar to using apt-get for Linux.  It uses 
+Windows Powershell and the .NET framework to allow you to silently install many different applications seamlessly.  
+When a package has an .exe file, chocolatey will crate a link "shortcut" to the file so that you can run that 
+tool anywhere on the machine.  When a package has a chocolateyInstall.ps1 script in it, the script will be run 
+instead.  The limitations of what can be run is defined only by the .NET framework version and by Powershell.
+
+
 
 DOCUMENTATION BEING UPDATED DAILY
 ==================================
