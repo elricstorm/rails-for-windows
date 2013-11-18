@@ -68,6 +68,19 @@ What do I need to get started?
 * Fingers (unless you are one of those rare toe-typists)
 * <b>A simple text editor (I recommend Sublime 3)</b>
 
+=== Setting Expectations
+
+When you are finished reading everything (<i>this includes the wiki</i>), you should know how to do the following: 
+
+* How to use windows as a development platform
+* How to install and use Ruby on Windows via manual or automated methods
+* How to install and use Ruby on Rails via manual or automated methods
+* An understanding of NuGet, Chocolatey, Boxstarter, RubyInstaller, Devkit, Ruby, Ruby on Rails, PIK, and PowerShell
+* How to setup and use virtualbox and windows as a virtual development box
+* How to setup and use git on Windows
+* How to find reference material on the web
+* How to contribute to the discussion
+
 DOCUMENTATION BEING UPDATED DAILY
 ==================================
 
