@@ -91,7 +91,7 @@ that they joined forces with a .NET package management project called Nubular (N
 rewritten to remove the Ruby dependency. The Nu command line package management system was now to be called 
 NuPack. It was eventually rebranded to NuGet.
 
-NuGet is the package manager for the Microsoft development platform including .NET.  When you use NuGet to install 
+NuGet is the package manager for the open source Microsoft development platform including .NET.  When you use NuGet to install 
 a package, it copies the library files to your solution and automatically updates your project 
 (adds references, change config files, etc.). If you remove a package, NuGet reverses whatever changes it made so 
 that no clutter is left.
