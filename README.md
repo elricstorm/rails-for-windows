@@ -34,6 +34,13 @@ the equivallent of apt-get for windows. Boxstarter, coupled with chocolately, al
 the web, network shares, usb keys, or locally.  It even has reboot resiliency with administrative rights from 
 start to finish. The NuGet software that helps us to achieve package management is also <i>open source</i>. 
 
+    Linux has Linux Shell or Bash
+    
+Windows has PowerShell.  PowerShell uses cmdlets which allows windows developers to create complex scripting for 
+managing windows systems.  It makes use of pipes, similar to Linux. However linux shells output text while PowerShell 
+takes advantage of using objects with the *[pipeline] (http://www.howtogeek.com/138121/geek-school-learning-powershell-objects/)*.  
+It is also used with Chocolatey and package management. 
+
 DOCUMENTATION BEING UPDATED DAILY
 ==================================
 
