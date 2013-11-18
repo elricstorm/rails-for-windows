@@ -8,4 +8,10 @@ Special thanks to:
 *  *Daniel Kehoe - [Rails 4.0 Support, Tutorials, and Documentation](http://danielkehoe.com/).*
 *  *Matt Wrock - [Boxstarter](http://boxstarter.org/).*
 
+What is Rails for Windows?
+--------------------------------
+
+Rails for Windows was created to help novice to intermediate Rails Developers that use the Windows OS
+as their development platform.
+
 ...
