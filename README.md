@@ -1,4 +1,4 @@
-rails-for-windows
-=================
+Rails for Windows
+================================
 
-Ruby on Rails automation setup stack for Windows development
+*The project is not yet operational.  Please come back later as updates begin.
