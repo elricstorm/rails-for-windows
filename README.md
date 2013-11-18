@@ -105,7 +105,11 @@ Windows Powershell and the .NET framework to allow you to silently install many 
 seamlessly.  When a package has an .exe file, chocolatey will create a link "shortcut" to the file so that you 
 can run that tool anywhere on the machine.  When a package has a chocolateyInstall.ps1 script in it, the script 
 will be run instead.  The limitations of what can be run is defined only by the .NET framework version and 
-by Powershell.
+by PowerShell.
+
+Chocolatey.org houses over 1,400 unique packages (at the time of this writing) and is growing tremendously.  It 
+houses a huge amount of core development components and applications, some of which we will be using for our 
+installation.
 
 
 
