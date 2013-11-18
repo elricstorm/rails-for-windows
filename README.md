@@ -64,6 +64,7 @@ What do I need to get started?
 * Patience
 * Some Reading Time
 * <b>Windows 7 (32 or 64-bit), Windows 8 or 8.1 (32 or 64-bit)</b> 
+* <b>.NET Framework 4.5 minimum</b>
 * <b>PowerShell 2.0 or higher</b>
 * Fingers (unless you are one of those rare toe-typists)
 * <b>A simple text editor (I recommend Sublime 3)</b>
@@ -101,7 +102,7 @@ You can develop your own package and share it via the NuGet Gallery.
 
 Chocolatey is the equivallent of a package manager for Windows, similar to using apt-get for Linux.  It uses 
 Windows Powershell and the .NET framework to allow you to silently install many different applications 
-seamlessly.  When a package has an .exe file, chocolatey will crate a link "shortcut" to the file so that you 
+seamlessly.  When a package has an .exe file, chocolatey will create a link "shortcut" to the file so that you 
 can run that tool anywhere on the machine.  When a package has a chocolateyInstall.ps1 script in it, the script 
 will be run instead.  The limitations of what can be run is defined only by the .NET framework version and 
 by Powershell.
