@@ -19,6 +19,13 @@ development then you've probably ascertained what many of us already know and re
       puts ("bangs head on wall " * 1000)
     end
     
-Information is either missing or scattered in hard to reach places.
+Information is either missing or scattered about in hard to reach places.  You may also begin to realize that 
+linux and mac discussions start to overwhelm your searches on the web.  Even if you manage to find some resources 
+that seem viable, the information may be outdated or unusable.  This leads many windows developers towards the path 
+of absolute frustration.  The goal for this project is to provide you as much information as possible about Windows,
+Ruby, Rails, virtual development, package management, and more.
+
+DOCUMENTATION BEING UPDATED DAILY
+==================================
 
 ...
