@@ -38,8 +38,8 @@ start to finish. The NuGet software that helps us to achieve package management 
     
 Windows has PowerShell.  PowerShell uses cmdlets which allows windows developers to create complex scripting for 
 managing windows systems.  It makes use of pipes, similar to Linux. However linux shells output text while PowerShell 
-takes advantage of using objects with the *[pipeline] (http://www.howtogeek.com/138121/geek-school-learning-powershell-objects/)*.  
-It is also used with Chocolatey and package management. 
+takes advantage of using objects with the *[pipeline] (http://www.howtogeek.com/138121/geek-school-learning-powershell-objects/)*.  It 
+is also used with Chocolatey and package management. 
 
 DOCUMENTATION BEING UPDATED DAILY
 ==================================
