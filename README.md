@@ -67,7 +67,7 @@ What do I need to get started?
 * <b>.NET Framework 4.5 minimum</b>
 * <b>PowerShell 2.0 or higher</b>
 * Fingers (unless you are one of those rare toe-typists)
-* <b>A simple text editor (I recommend Sublime 3)</b>
+* <b>A simple text editor (I recommend Sublime Text 3)</b>
 
 ### Setting Expectations
 
@@ -147,6 +147,13 @@ for installing a complete environment on a fresh OS install as well as some othe
 For an example boxstarter web script, see the rails4stack.ps1 script located on the PowerShell directory.
 
 #### *[Rails Examples and Tutorials] (http://railsapps.github.io/)*
+
+This is a website and GitHub repository for open source Ruby on Rails example applications.
+
+The example applications include Ruby on Rails introductions for beginners as well as examples for 
+experienced developers. Each application is accompanied by a detailed tutorial. Support for the 
+project, including the example applications and helpful free articles, comes from subscribers to the 
+RailsApps tutorials.
 
 
 
