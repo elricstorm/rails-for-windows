@@ -56,6 +56,16 @@ allow developers to deploy a complete environment stack with one click installat
 The main thing to realize is that Windows has come far and there are many contributors across many projects that 
 invest their time to help new developers get up to speed quickly.  It can be done.
 
+What do I need to get started?
+-------------------------------
+
+* Patience
+* Some Reading Time
+* <b>Windows 7 (32 or 64-bit), Windows 8 or 8.1 (32 or 64-bit)</b> 
+* <b>PowerShell 2.0 or higher</b>
+* Fingers (unless you are one of those rare toe-typists)
+* <b>A simple text editor (I recommend Sublime 3)</b>
+
 DOCUMENTATION BEING UPDATED DAILY
 ==================================
 
