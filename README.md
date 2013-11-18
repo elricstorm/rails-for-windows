@@ -137,6 +137,13 @@ Windows installer is in development.
 <b>Pik</b> is a tool to manage multiple versions of ruby on Windows. It can be used from the Windows command 
 line (cmd.exe), Windows PowerShell, or Git Bash.
 
+#### *[Boxstarter] (http://boxstarter.org/)*
+
+Boxstarter leverages Chocolatey packages to automate the installation of software and create repeatable, 
+scripted Windows environments. Chocolatey makes installing software very easy with no user 
+intervention. Boxstarter enhances Chocolatey's functionality and provides an environment that is optimized 
+for installing a complete environment on a fresh OS install as well as some other specific scenarios.
+
 
 #### *[Rails Examples and Tutorials] (http://railsapps.github.io/)*
 
