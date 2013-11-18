@@ -100,10 +100,11 @@ You can develop your own package and share it via the NuGet Gallery.
 #### *[Chocolatey] (http://www.chocolatey.org/)*
 
 Chocolatey is the equivallent of a package manager for Windows, similar to using apt-get for Linux.  It uses 
-Windows Powershell and the .NET framework to allow you to silently install many different applications seamlessly.  
-When a package has an .exe file, chocolatey will crate a link "shortcut" to the file so that you can run that 
-tool anywhere on the machine.  When a package has a chocolateyInstall.ps1 script in it, the script will be run 
-instead.  The limitations of what can be run is defined only by the .NET framework version and by Powershell.
+Windows Powershell and the .NET framework to allow you to silently install many different applications 
+seamlessly.  When a package has an .exe file, chocolatey will crate a link "shortcut" to the file so that you 
+can run that tool anywhere on the machine.  When a package has a chocolateyInstall.ps1 script in it, the script 
+will be run instead.  The limitations of what can be run is defined only by the .NET framework version and 
+by Powershell.
 
 
 
