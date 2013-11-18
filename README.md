@@ -68,7 +68,7 @@ What do I need to get started?
 * Fingers (unless you are one of those rare toe-typists)
 * <b>A simple text editor (I recommend Sublime 3)</b>
 
-=== Setting Expectations
+### Setting Expectations
 
 When you are finished reading everything (<i>this includes the wiki</i>), you should know how to do the following: 
 
