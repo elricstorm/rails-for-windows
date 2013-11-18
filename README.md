@@ -144,6 +144,7 @@ scripted Windows environments. Chocolatey makes installing software very easy wi
 intervention. Boxstarter enhances Chocolatey's functionality and provides an environment that is optimized 
 for installing a complete environment on a fresh OS install as well as some other specific scenarios.
 
+For an example boxstarter web script, see the rails4stack.ps1 script located on the PowerShell directory.
 
 #### *[Rails Examples and Tutorials] (http://railsapps.github.io/)*
 
