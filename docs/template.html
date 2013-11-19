@@ -1,15 +1,29 @@
 <!doctype html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8">    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- For third-generation iPad with high-resolution Retina display: -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/docs/img/favicons/apple-touch-icon-144x144-precomposed.png">
+    <!-- For iPhone with high-resolution Retina display: -->
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/docs/img/favicons/apple-touch-icon-114x114-precomposed.png">
+    <!-- For first- and second-generation iPad: -->
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/docs/img/favicons/apple-touch-icon-72x72-precomposed.png">
+    <!-- For non-Retina iPhone, iPod Touch, and Android 2.1+ devices: -->
+    <link rel="apple-touch-icon-precomposed" href="/docs/img/favicons/apple-touch-icon-precomposed.png">
+    <link rel="icon" href="/docs/img/favicons/favicon.ico" type="image/x-icon">
     <title>{{NAME}} :: viewdocs.io</title>
     <link href='http://fonts.googleapis.com/css?family=Source+Code+Pro:300,600' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Merriweather:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="http://foundation.zurb.com/docs/assets/normalize.css" />
+    <link rel="stylesheet" href="http://foundation.zurb.com/docs/assets/docs.css" />
+    <script src="http://foundation.zurb.com/docs/assets/vendor/custom.modernizr.js"></script>
     <link rel="stylesheet" href="http://static.gist.io/css/screen.css">
     <style type="text/css">
-        #gistbody h1:first-child { 
-            font-family: 'Oswald', sans-serif; 
-            font-size: 2.4em; 
+        #gistbody h1:first-child {
+            font-family: 'Oswald', sans-serif;
+            font-size: 2.4em;
             display: block !important;
             margin-top: 1em !important;
         }
@@ -19,18 +33,45 @@
         ul, ol { list-style-position: inside !important; }
     </style>
 </head>
-<body>
+<body class="antialiased off-canvas hide-extras">
+
+     <nav class="top-bar hide-for-small">
+      <ul class="title-area">
+        <!-- Title Area -->
+        <li class="name">
+          <h1 id="gistid"><a href="http://github.com/{{USER}}/{{NAME}}">{{NAME}}</a> :: <a href="/{{NAME}}">index</a></h1>
+        </li>
+      </ul>
+    </nav>
+    <section class="main">
     <section class="content">
-        <header>
-            <h1 id="gistid"><a href="http://github.com/{{USER}}/{{NAME}}">{{NAME}}</a> :: <a href="/{{NAME}}">index</a></h1>
-        </header>
+    <div class="row">
+        <div class="large-12 columns">
+          <ul class="button-group">
+                <li><a class="small button secondary" style="margin-bottom: 0;" href="chapter-01">Chap 01</a></li>
+                <li><a class="small button secondary" style="margin-bottom: 0;" href="chapter-02">Chap 02</a></li>
+                <li><a class="small button secondary" style="margin-bottom: 0;" href="chapter-03">Chap 03</a></li>
+                <li><a class="small button secondary" style="margin-bottom: 0;" href="chapter-04">Chap 04</a></li>
+                <li><a class="small button secondary" style="margin-bottom: 0;" href="chapter-05">Chap 05</a></li>
+            </ul>
+        </div>
+        <hr>
+    </div>
+        <br />
         <article id="gistbody" class="instapaper_body entry-content">
             {{CONTENT}}
         </article>
     </section>
+    </section>
     <script src="//static.getclicky.com/js" type="text/javascript"></script>
     <script type="text/javascript">try{ clicky.init(100672863); }catch(e){}</script>
     <noscript><p><img alt="Clicky" width="1" height="1" src="//in.getclicky.com/100672863ns.gif" /></p></noscript>
+    <script src="http://foundation.zurb.com/docs/assets/docs.js"></script>
+    <script>
+      $(document)
+
+        .foundation();
+
+    </script>
 </body>
 </html>
-
