@@ -52,7 +52,7 @@ when required during gem installations.
 
     Linux has RVM
     
-Windows has PIK.  There are also new free Ruby Stack providers like *[Bitnami] (https://bitnami.com/stack/ruby)* which 
+Windows can use URU.  There are also new free Ruby Stack providers like *[Bitnami] (https://bitnami.com/stack/ruby)* which 
 allow developers to deploy a complete environment stack with one click installation.
 
 The main thing to realize is that Windows has come far and there are many contributors across many projects that 
@@ -76,7 +76,7 @@ When you are finished reading everything (<i>this includes the wiki</i>), you sh
 * How to use windows as a development platform
 * How to install and use Ruby on Windows via manual or automated methods
 * How to install and use Ruby on Rails via manual or automated methods
-* An understanding of NuGet, Chocolatey, Boxstarter, RubyInstaller, Devkit, Ruby, Ruby on Rails, PIK, and PowerShell
+* An understanding of NuGet, Chocolatey, Boxstarter, RubyInstaller, Devkit, Ruby, Ruby on Rails, URU, and PowerShell
 * How to setup and use virtualbox and windows as a virtual development box
 * How to setup and use git on Windows
 * How to find reference material on the web
@@ -111,7 +111,7 @@ Chocolatey.org houses over 1,400 unique packages (at the time of this writing) a
 houses a huge amount of core development components and applications, some of which we will be using for our 
 installation.
 
-#### *[RubyInstaller, DevKit, and PIK] (http://rubyinstaller.org/)*
+#### *[RubyInstaller and DevKit] (http://rubyinstaller.org/)*
 
 The <b>RubyInstaller</b> project provides a self-contained Windows-based installer that houses the Ruby language 
 execution environment, a baseline set of required RubyGems and extensions, and the full text of the wonderful 
@@ -134,9 +134,6 @@ Windows. Many community members also use the DevKit as their “foundation” to
 native software.  The DevKit is currently available for download as a self-extracting archive and a 
 Windows installer is in development.
 
-<b>Pik</b> is a tool to manage multiple versions of ruby on Windows. It can be used from the Windows command 
-line (cmd.exe), Windows PowerShell, or Git Bash.
-
 #### *[Boxstarter] (http://boxstarter.org/)*
 
 Boxstarter leverages Chocolatey packages to automate the installation of software and create repeatable, 
@@ -145,6 +142,12 @@ intervention. Boxstarter enhances Chocolatey's functionality and provides an env
 for installing a complete environment on a fresh OS install as well as some other specific scenarios.
 
 For an example boxstarter web script, see the rails4stack.ps1 script located in the PowerShell directory.
+
+#### *[URU] (https://bitbucket.org/jonforums/uru/)*
+
+Uru is a lightweight, multi-platform command line tool that helps you use the multiple 
+rubies (currently MRI, JRuby, and Rubinius) on your 32/64-bit Linux, OS X, or Windows systems. Uru is 
+a micro-kernel. It provides a core set of minimal complexity, multi-platform ruby use enhancers.
 
 #### *[Rails Examples and Tutorials] (http://railsapps.github.io/)*
 
