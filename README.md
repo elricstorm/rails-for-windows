@@ -2,7 +2,9 @@ Rails for Windows
 ================================
 
 <pre>By Joel Dezenzio (ie. Elricstorm)</pre>
-<pre>Last Updated:  11/19/2013</pre>
+Last Updated:  11/19/2013
+
+[Read Everything on Viewdocs!] (http://elricstorm.viewdocs.io/rails-for-windows)
 
 Special thanks to:
 
@@ -34,7 +36,7 @@ Ruby, Rails, virtual development, package management, and more.
     
 Windows has NuGet, Chocolatey, Boxstarter, and a host of other package management configurations.  Chocolatey is 
 the equivallent of apt-get for windows. Boxstarter, coupled with chocolately, allows you to do remote installations, automate installs from 
-the web, network shares, usb keys, or locally.  It even has reboot resiliency with administrative rights from 
+he web, network shares, usb keys, or locally.  It even has reboot resiliency with administrative rights from 
 start to finish. The NuGet software that helps us to achieve package management is also <i>open source</i>. 
 
     Linux has Linux Shell or Bash
