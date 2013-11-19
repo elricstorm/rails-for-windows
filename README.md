@@ -4,6 +4,8 @@ Rails for Windows
 <pre>By Joel Dezenzio (ie. Elricstorm)</pre>
 **[Read Everything on Viewdocs!] (http://elricstorm.viewdocs.io/rails-for-windows)**
 
+<hr>
+
 Special thanks to:
 
 *  *Luis Lavena - [RubyInstaller & Windows Development Support](http://rubyinstaller.org/).*
