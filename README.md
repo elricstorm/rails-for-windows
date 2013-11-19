@@ -1,10 +1,8 @@
 Rails for Windows
 ================================
-
-<pre>By Joel Dezenzio (ie. Elricstorm)</pre>
 Last Updated:  11/19/2013
-
-[Read Everything on Viewdocs!] (http://elricstorm.viewdocs.io/rails-for-windows)
+<pre>By Joel Dezenzio (ie. Elricstorm)</pre>
+**[Read Everything on Viewdocs!] (http://elricstorm.viewdocs.io/rails-for-windows)**
 
 Special thanks to:
 
