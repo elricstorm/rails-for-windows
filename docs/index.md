@@ -1,7 +1,9 @@
 Rails for Windows
 ================================
-*<small>Last Updated:  11/19/2013</small>*
+*Last Updated:  11/19/2013*
 <pre>By Joel Dezenzio (ie. Elricstorm)</pre>
+
+<hr>
 
 Special thanks to:
 
