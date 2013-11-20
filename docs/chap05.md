@@ -1,1 +1,3 @@
-Chapter 05 Placeholder
+## Chapter 05:  Manual Installations
+
+Placeholder
