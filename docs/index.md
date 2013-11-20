@@ -1,6 +1,6 @@
 Rails for Windows
 ================================
-*Last Updated:  11/19/2013*
+*Last Updated:  11/20/2013*
 <pre>By Joel Dezenzio (ie. Elricstorm)</pre>
 
 <hr>
@@ -19,9 +19,11 @@ Rails for Windows was created to help novice to intermediate Rails Developers in
 on a Windows OS platform.  If you've searched and combed the web for resources pertaining to Windows/Ruby/Rails 
 development then you've probably ascertained what many of us already know and realize:
 
-    def information_related_to_windows
-      puts ("bangs head on wall " * 1000)
-    end
+````ruby
+def information_related_to_windows
+  puts ("bangs head on wall " * 1000)
+end
+````
     
 Information is either missing or scattered about in hard to reach places.  You may also begin to realize that 
 linux and mac discussions start to overwhelm your searches on the web.  Even if you manage to find some resources 
