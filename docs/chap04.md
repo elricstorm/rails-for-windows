@@ -1,1 +1,3 @@
-Chapter 04 Placeholder
+** Chapter 04:  Automated Installations
+
+Placeholder
