@@ -1,4 +1,4 @@
-# Chapter 02:  Getting Started
+## Chapter 02:  Getting Started
 
 Before continuing you should make sure you have all of the tools necessary to continue with the tutorials and 
 documentation.  All of the utilities for the tutorials are free to download and free to use.  $0 cost!  Here 
