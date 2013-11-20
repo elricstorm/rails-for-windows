@@ -163,16 +163,5 @@ project, including the example applications and helpful free articles, comes fro
 RailsApps tutorials.
 
 
-## *[The WIKI] (https://github.com/elricstorm/rails-for-windows/wiki)*
-
-The Wiki is divided into many small chapters so you can skip and jump at your leisure.  The Wiki represents 
-a knowledgebase and as such, will be updated as information becomes outdated.  Feel free to push commits 
-on inaccurate information or if you wish to update sections.
-
-As this is a fairly new project, many pages may still be in the process of creation but do not fret!  I am working 
-very hard to update pages on a daily and weekly basis.  If you feel you would like to contribute, just let me know!
-You can reach me at jdezenzio@gmail.com.  
-
-
 DOCUMENTATION UPDATED WEEKLY
 ==================================
