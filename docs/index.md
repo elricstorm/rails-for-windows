@@ -161,7 +161,3 @@ The example applications include Ruby on Rails introductions for beginners as we
 experienced developers. Each application is accompanied by a detailed tutorial. Support for the 
 project, including the example applications and helpful free articles, comes from subscribers to the 
 RailsApps tutorials.
-
-
-DOCUMENTATION UPDATED WEEKLY
-==================================
