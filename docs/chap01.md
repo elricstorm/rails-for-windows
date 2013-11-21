@@ -49,9 +49,9 @@ I'm going to show you how to view/set your environment variables in three differ
 
 ##### GUI View
 
-Win7: Click Start > Type **environment** > select **Edit the system environment variables** > click the Environment Variables button
+Win7: Click **Start** > Type **environment** > select **Edit the system environment variables** > click the Environment Variables button
 
-Win8: Press the Windows key on your keyboard > Type **environment** > select **system** > select **Edit the system environment variables** > click the Environment Variables button
+Win8: Press the **Windows key** on your keyboard > Type **environment** > select **system** > select **Edit the system environment variables** > click the Environment Variables button
 
 <a href="http://www.flickr.com/photos/69355230@N03/10979785133/" title="gui_environment"><img src="http://farm8.staticflickr.com/7453/10979785133_66022415c8_c.jpg" width="800" height="466" alt="gui_environment"></a>
 
@@ -59,7 +59,7 @@ This environment variables window is divided into two sections (top/bottom) for 
 
 ##### Command Prompt
 
-Win7: Click Start > Type **cmd** and hit the Enter key
+Win7: Click **Start** > Type **cmd** and hit the Enter key
 
 Win8: Press the Windows key on your keyboard > Type **cmd** and hit the Enter key
 
@@ -80,4 +80,3 @@ Finding your environment variables in PowerShell is also relatively easy.  Go to
 <a href="http://www.flickr.com/photos/69355230@N03/10979657776/" title="ps_environment"><img src="http://farm8.staticflickr.com/7405/10979657776_a86a6201eb_c.jpg" width="800" height="603" alt="ps_environment"></a>
 
 PowerShell allows you to go straight to your environment path and view your variables similar to a directory structure.
-
