@@ -45,8 +45,3 @@ Let's jump in together!  Hey, whoa.. hold on there.  Keep your shorts on.
 Before beginning any new development project it is important to determine the layout and structure of your 
 working area.  If you are new to Ruby and Ruby on Rails it may be difficult to understand where to begin.  We 
 can start with some simple basics relative to both Windows 7 and Windows 8.
-
-# CHANGES OCCURRING DAILY/WEEKLY
-*As this is a new project, I am working tirelessly to write/update all chapters and discussion topics.  My initial 
-goal is to have the base documentation completed by 12/31/2013.  However, updates will continue on a weekly basis!*
-
