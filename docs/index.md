@@ -1,5 +1,5 @@
 <div class="title">
-  # Rails for Windows
+  <h1>Rails for Windows</h1>
 </div>
 <pre>By Joel Dezenzio (ie. Elricstorm)</pre>
 
