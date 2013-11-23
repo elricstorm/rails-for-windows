@@ -1,4 +1,6 @@
-<h1 class="title">Rails for Windows</h1>
+<div class="title">
+  # Rails for Windows
+</div>
 <pre>By Joel Dezenzio (ie. Elricstorm)</pre>
 
 <hr>

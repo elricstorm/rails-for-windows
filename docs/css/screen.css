@@ -408,7 +408,7 @@ article .highlight {
 
 /* Custom CSS for Template */
 
-#gistbody h1.title {
+#gistbody .title h1 {
             font-family: 'Oswald', sans-serif;
             font-size: 2.6em;
             display: block !important;
