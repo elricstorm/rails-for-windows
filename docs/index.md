@@ -1,6 +1,7 @@
-<div class="title">
+<div>
   <h1>Rails for Windows</h1>
 </div>
+
 <pre>By Joel Dezenzio (ie. Elricstorm)</pre>
 
 <hr>
