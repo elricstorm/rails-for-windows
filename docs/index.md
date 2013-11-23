@@ -1,5 +1,4 @@
-Rails for Windows
-================================
+<h1 class="title">Rails for Windows</h1>
 <pre>By Joel Dezenzio (ie. Elricstorm)</pre>
 
 <hr>
