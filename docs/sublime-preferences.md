@@ -49,34 +49,8 @@
 	],
 	"ignored_words":
 	[
-		"425x325",
-		"5x5",
-		"85x65",
-		"ae0a00",
-		"af2400",
-		"b15845",
-		"b6e180",
-		"bot(1c3c03",
-		"bot(2d6404",
-		"bot(3f0600",
-		"bot(509e00",
-		"bot(780e00",
-		"f12b00",
-		"fieldgoals",
-		"firstdowns",
-		"kickreturns",
-		"kickreturnsdef",
-		"png",
-		"puntreturns",
-		"puntreturnsdef",
-		"redzone",
-		"thirdconversions",
-		"top(416c0e",
-		"top(619e13",
-		"top(701400",
-		"top(717000",
-		"top(88e300",
-		"tsrs"
+		"linux",
+		"mac"
 	],
 	"rulers":
 	[
