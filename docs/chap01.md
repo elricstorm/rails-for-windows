@@ -2,6 +2,8 @@
 
 ### Windows Environments
 
+Before you jump into this chapter let me start by setting some very simple expectations for you.  This chapter is meant to help you better understand and familiarize yourself with Windows and some of the basics you'll need to grasp before diving into the other chapters later.  
+
 The main environments we will focus on are Windows 7 and Windows 8.  We'll also look into the difference between 32-bit and 64-bit OS's and discuss potential impacts on developing and what changes you may need to make.
 
 The following areas will become a part of the discussion tree:
@@ -12,7 +14,20 @@ The following areas will become a part of the discussion tree:
 * Handling Proxies
 * Troubleshooting Issues
 
-The main components we'll be working with in both windows environments will either be GUI related, or involve the use of command prompts (cmd) or PowerShell (ps).  
+The main components we'll be working with in both windows environments will either be GUI related, or involve the use of command prompts (CMD) or PowerShell (PS). 
+
+#### The Legend
+
+Here are the terms we'll use throughout this chapter:
+
+* Win7 = Windows 7
+* Win8 = Windows 8
+* GUI = Graphical User Interface or doing something *visually*
+* CMD = Command Prompt (a standard DOS command prompt)
+* PS = PowerShell 
+* RoR = Ruby on Rails
+* VM = Virtual Machine
+* IDE = Integrated Development Environment 
 
 ### Windows 8.1 (Blue)
 
@@ -26,33 +41,55 @@ Windows is one of the easiest operating environments to use from a feature, hard
 
 Everything you need to initially setup and use Ruby and Ruby on Rails (RoR) is just as readily available for Windows as it is for any other operating environments.  You aren't going to install Ruby (the language) or RoR (the framework) and find out you can't use them.  You will also find that what you thought you knew about Windows as a development environment has changed by leaps and bounds over the years.
 
-#### The Legend
-
-Here are the terms we'll use throughout this chapter:
-
-* Win7 = Windows 7
-* Win8 = Windows 8
-* GUI = Graphical User Interface or doing something *visually*
-* CMD = Command Prompt (a standard DOS command prompt)
-* PS = PowerShell 
-* RoR = Ruby on Rails
-* VM = Virtual Machine
-* IDE = Integrated Development Environment
-
 ### Structuring and Organizing your Development Area
 
-     Discuss Virtual or Local base windows environment
-     Download, install and setup a code editor
-     Download, install and configure PowerShell
-     Design your environment on paper
-     Decide where your development library will exist 
-     Finalize any basic windows configurations
+We'll go through a short list of (todo's) in this section:
 
-Before beginning any new development project it is important to determine the layout and structure of your working area.  If you are new to Ruby and Ruby on Rails it may be difficult to understand where to begin.  We can start with some simple basics relative to both Windows 7 and Windows 8.
+* We will discuss Virtual or Local windows environments
+* We will learn how to design a working environment on paper
+* We will download, install and setup a simple code editor
+
+Before beginning any new development project it is important to determine the layout and structure of your working area.  
 
 ##### Virtual or Local
 
-VMs have their advantages.  The ability to build an environment in minutes, test or isolate application scenarios, and then break it all down in moments can be a wonderful thing. Likewise, if you plan on staying with a simple structured environment with very few base changes, you may decide to keep a local non-virtual environment.  If you plan on setting up a VM see **Chapter 03:  Virtualization** and then come back here.  Otherwise, let's continue on.  
+VMs have their advantages.  The ability to build an environment in minutes, test or isolate application scenarios, and then break it all down in moments can be a wonderful thing. VMs operate independently and don't affect any local configurations at all.  If you plan on staying with a simple structured environment with very few base changes, you may decide to keep a local non-virtual environment.  If you plan on setting up a VM see **Chapter 03:  Virtualization** and then come back here.  Otherwise, let's continue on.  
+
+##### Design your environment on paper
+
+Sometimes the simplest approach to deciding where things are going to go and how things will work is just to take out a piece of paper and start writing your ideas down or organize a checklist.  As an example from my notes:
+
+* [x] Install and use VirtualBox for VM management
+* [x] Install and use a Windows 8.1 VM
+* [ ] Configure Windows PowerShell
+* [ ] Install and use Chocolatey and NuGet for package management
+* [ ] Install Ruby 2.0 using Chocolatey
+* [ ] Install Rails 4.x using Chocolatey
+* [ ] Install Uru for managing Ruby environments
+* [ ] Install MySQL using Chocolatey for my Database Management
+* [ ] Install and use Msysgit and GitHub
+* [x] Install and use Sublime Text 3 as my code editor
+* [ ] Set Windows Environment Paths for Ruby Path Extensions
+* [ ] Set Windows Environment Paths for Gems
+* [ ] Set Windows Environment Paths for Chocolatey 
+
+You don't have to do anything right now.  This is just an example list.  You may also want to determine if you would like to setup your directory structures a certain way.  Maybe you'd like everything that is tool related to automatically go in C:\tools\bin, or you might want to have a development library setup in C:\Development.  
+
+Take a few minutes to determine what you want.  If you don't know then you may want to **embrace the stack**.  
+
+###### Embracing the Stack
+
+Don't know what you want?  That's fine.  Start with a default stack that someone else created for you.  A stack can be a number of items that form a working environment.  An example stack might be:
+
+* Windows 8.1
+* Ruby 2.0
+* Rails 4.0
+* Mongrel
+* RubyMine IDE
+* MongoDB
+* Rspec | Cucumber Testing
+
+This is just a base example.  You start with someone else's idea in a VM test environment, play with it, get to know it, and then decide what you like the most.  You can then test other stacks until you find a good mix and match of development style that fits your own.  Then create your own stack!  This is one reason why a VM may be one of the best options to go as it provides very good flexibility.
 
 ##### IDE or Editor
 
@@ -90,24 +127,11 @@ Copy and paste in the settings from [sublime-preferences] (http://elricstorm.vie
 
 Next, download the [Inconsolata font] (http://www.levien.com/type/myfonts/inconsolata.html).  It's a great font for developing and coding.  Use the .otf version and once you download it, just click and install it.  It's that easy.  Now then, restart sublime text 3 and you should see everything looks pretty solid.  Good job!
 
-##### Design your environment on paper
-
-Sometimes the simplest approach to deciding where things are going to go and how things will work is just to take out a piece of paper and start writing your ideas down.  As an example from my notes:
-
-* I want to run things virtually on 8.1.
-* I want all my tools to go into C:\tools\bin
-* I want my development path to be C:\development\
-* >> I can add ruby or rails projects to this path also
-* >> >> C:\development\ruby\ruby200
-* >> >> C:\development\rails\someProject...
-* >> >> C:\development\rails\someOtherProject...
-* I will use github and msysgit for handling repositories
-* I will use mysql for my database management
-* I will use nuget and chocolatey for package management
-
 ### Working with and setting up Environment Variables
 
 I'm going to show you how to view/set your environment variables in three different modes:  GUI, CMD(dos), PS(powershell).
+
+#### Viewing or Finding Variables
 
 ##### GUI View
 
@@ -142,6 +166,10 @@ Finding your environment variables in PowerShell is also relatively easy.  Go to
 <a href="http://www.flickr.com/photos/69355230@N03/10979657776/" title="ps_environment"><img src="http://farm8.staticflickr.com/7405/10979657776_a86a6201eb_c.jpg" width="800" height="603" alt="ps_environment"></a>
 
 PowerShell allows you to go straight to your environment path and view your variables similar to a directory structure.
+
+#### Setting Environment Variables
+
+todo
 
 ### Working with and setting up the PowerShell environment  
 
@@ -193,3 +221,4 @@ TODO
 ### Questions or related searches
 
 [Stack Overflow:  Ruby on Windows] (http://stackoverflow.com/search?q=ruby+on+windows)
+
