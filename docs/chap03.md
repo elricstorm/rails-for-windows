@@ -1,16 +1,20 @@
 ## Chapter 03:  Virtualization
 
-If you plan on installing directly to your windows machine and do not wish to use virtualization technology, you 
-can skip this chapter and move on to the next.
+If you plan on installing directly to your windows machine and do not wish to use virtualization technology, you can skip this chapter and move on to the next.
 
-### VMs (Virtual Machines)
+#### Setting Expectations
 
-When trying something out for the very first time it is recommended to install a virtual environment that can 
-provide you with a way to preview, test, create, destroy without affecting your current windows operating 
-environment.  Likewise, if you are actively developing multiple applications you may want to have multiple 
-development boxes.  Luckily, Microsoft provides us a way to do that with limited fuss.
+The topics we will discuss here are:
 
-### *[Virtual Machines by Microsoft] (http://www.modern.ie/en-us/virtualization-tools)* 
+* Virtual Machines
+* Virtual Machine Settings
+* Build it up and Break it down
+
+## VMs (Virtual Machines)
+
+When trying something out for the very first time it is recommended to install a virtual environment that can provide you with a way to preview, test, create, destroy without affecting your current windows operating environment.  Likewise, if you are actively developing multiple applications you may want to have multiple development boxes.  Luckily, Microsoft provides us a way to do that with limited fuss.
+
+## *[Virtual Machines by Microsoft] (http://www.modern.ie/en-us/virtualization-tools)* 
 
 You can navigate by clicking the link above and selecting the following:
 
@@ -34,9 +38,4 @@ For the most part that is it!  Start up the image and you now have a Windows 8.1
 
 ### VM Settings
 
-The initial settings for RAM may be set to 1024mb.  You can increase this if you have more memory available.  I 
-have mine set to 4096mb.  You will also want to enable the network adapter.  In settings, click on Network 
-and change to bridged and select your adapter.  As soon as you launch the machine and there's a network 
-connection, Microsoft will automatically activate windows for you. 
-
-
+The initial settings for RAM may be set to 1024mb.  You can increase this if you have more memory available.  I have mine set to 4096mb.  You will also want to enable the network adapter.  In settings, click on Network and change to bridged and select your adapter.  As soon as you launch the machine and there's a network connection, Microsoft will automatically activate windows for you. 
