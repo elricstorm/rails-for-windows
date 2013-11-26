@@ -2,17 +2,15 @@
 
 ### Windows Environments
 
-Before you jump into this chapter let me start by setting some very simple expectations for you.  This chapter is meant to help you better understand and familiarize yourself with Windows and some of the basics you'll need to grasp before diving into the other chapters later.  
+Before you jump into this chapter let me start by setting some very simple expectations for you.  This chapter is meant to help you better understand and familiarize yourself with Windows and some of the basics you'll need to grasp before diving into the other chapters later.  The main environments we will focus on are Windows 7 and Windows 8.  We'll also look into the difference between 32-bit and 64-bit OS's and discuss potential impacts on developing and what changes you may need to make.
 
-The main environments we will focus on are Windows 7 and Windows 8.  We'll also look into the difference between 32-bit and 64-bit OS's and discuss potential impacts on developing and what changes you may need to make.
+#### Setting Expectations
 
-The following areas will become a part of the discussion tree:
+The topics we will discuss here are:
 
 * Structuring and Organizing your development areas
-* Working with and setting up Environment Variables
-* Working with and setting up the PowerShell environment  
-* Handling Proxies
-* Troubleshooting Issues
+* Working with and how to set Environment Variables
+* Working with and how to set up the PowerShell environment  
 
 The main components we'll be working with in both windows environments will either be GUI related, or involve the use of command prompts (CMD) or PowerShell (PS). 
 
@@ -42,12 +40,6 @@ Windows is one of the easiest operating environments to use from a feature, hard
 Everything you need to initially setup and use Ruby and Ruby on Rails (RoR) is just as readily available for Windows as it is for any other operating environments.  You aren't going to install Ruby (the language) or RoR (the framework) and find out you can't use them.  You will also find that what you thought you knew about Windows as a development environment has changed by leaps and bounds over the years.
 
 ### Structuring and Organizing your Development Area
-
-We'll go through a short list of (todo's) in this section:
-
-* We will discuss Virtual or Local windows environments
-* We will learn how to design a working environment on paper
-* We will download, install and setup a simple code editor
 
 Before beginning any new development project it is important to determine the layout and structure of your working area.  
 
@@ -90,42 +82,6 @@ Don't know what you want?  That's fine.  Start with a default stack that someone
 * Rspec | Cucumber Testing
 
 This is just a base example.  You start with someone else's idea in a VM test environment, play with it, get to know it, and then decide what you like the most.  You can then test other stacks until you find a good mix and match of development style that fits your own.  Then create your own stack!  This is one reason why a VM may be one of the best options to go as it provides very good flexibility.
-
-##### IDE or Editor
-
-An IDE normally consists of a source code editor, build automation tools and a debugger. Several modern IDEs integrate with Intelli-sense coding features.  Editors are standard text or code editors that may or may not do additional tasks.  You could call some of the fancier editors hybrid IDE applications.  Some IDEs that are usable on Windows include RubyMine and Netbeans.  Both of these IDEs have extreme load times and tend to bottleneck resources.  
-
-For our tutorials I recommend [Sublime Text 3] (http://www.sublimetext.com/3).  It is a very sophisticated and extremely easy to use editor that has very little resource usage.  
-
-After you have sublime text 3 downloaded and running, do the following:
-
-Setup Package Control.
-
-     Click CTRL + ~
-
-Copy and Paste the following below into the console and hit enter.
-
-     import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())     
-
-Close and restart Sublime Text 3.  Next, let's add some packages to make it look more friendly:
-
-     Click Preferences > Package Control > Install Package
-     Type Soda theme and click to install.
-     .. repeat and type RailsCasts color and click to install this theme.
-     .. repeat and type All Autocomplete and click to install.
-     .. repeat and type BeautifyRuby and click to install.
-     .. repeat and type Better Coffeescript and click to install.
-     .. repeat and type ChangeQuotes and click to install.
-     .. repeat and type SideBarEnhancements and click to install.
-     .. repeat and type GitGutter and click to install.
-
-Edit your user preferences:
-
-     Click Preferences > Settings-User
-
-Copy and paste in the settings from [sublime-preferences] (http://elricstorm.viewdocs.io/rails-for-windows/sublime-preferences).  Also, you may want to change/edit the ignored words.  I threw in a couple of words for fun.  
-
-Next, download the [Inconsolata font] (http://www.levien.com/type/myfonts/inconsolata.html).  It's a great font for developing and coding.  Use the .otf version and once you download it, just click and install it.  It's that easy.  Now then, restart sublime text 3 and you should see everything looks pretty solid.  Good job!
 
 ### Working with and setting up Environment Variables
 
@@ -209,16 +165,3 @@ Likewise, understand that PowerShell utilizes "objects" and "classes" similar to
      PS C:\Some\Path> Get-ExecutionPolicy | Get-Member
 
 And, you'll notice that there's a nice list of methods you can access for Microsoft.PowerShell.ExecutionPolicy.  If you followed this far, you've earned some **extra credit**!
-
-### Handling Proxies
-
-TODO
-
-### Troubleshooting Issues
-
-TODO
-
-### Questions or related searches
-
-[Stack Overflow:  Ruby on Windows] (http://stackoverflow.com/search?q=ruby+on+windows)
-
