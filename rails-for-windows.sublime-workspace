@@ -163,7 +163,7 @@
 			"file": "docs/css/screen.css",
 			"settings":
 			{
-				"buffer_size": 9255,
+				"buffer_size": 9282,
 				"line_ending": "Windows"
 			}
 		},
@@ -184,10 +184,10 @@
 		[
 			[
 				"Package Control: ",
-				"Package Control: Enable Package"
+				"Package Control: Install Package"
 			]
 		],
-		"width": 498.0
+		"width": 386.0
 	},
 	"console":
 	{
@@ -207,6 +207,9 @@
 	},
 	"file_history":
 	[
+		"/C/Users/Joel/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Development/rails4stack/rails-for-windows/docs/index.md",
+		"/C/Development/rails4stack/rails-for-windows/docs/chap01.md",
 		"/C/Development/rails4stack/rails-for-windows/.gitignore",
 		"/C/Development/JDSTATS/ncaastatpages.com/.gitignore",
 		"/C/Users/Joel/.bashrc",
@@ -220,7 +223,6 @@
 		"/C/Users/Joel/.ssh/github",
 		"/C/Development/rails-for-windows/powershell/rails4stack.ps1",
 		"/C/Users/Joel/Desktop/rails4stack.config",
-		"/C/Users/Joel/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
 		"/C/Development/JDSTATS/ncaastatpages.com/import/SQL/missing_teams/gstate_utsa_master.sql",
 		"/C/Development/JDSTATS/ncaastatpages.com/app/views/watchlists/pcs_index.html.erb",
 		"/C/Development/JDSTATS/ncaastatpages.com/app/controllers/betting_lines_controller.rb",
@@ -332,9 +334,7 @@
 		"/C/Development/JDSTATS/ncaastatpages.com/app/views/site_reports/_form.html.erb",
 		"/C/Development/JDSTATS/ncaastatpages.com/app/views/site_reports/show.html.erb",
 		"/C/Development/JDSTATS/ncaastatpages.com/test/functional/tsos_defenses_controller_test.rb",
-		"/C/Development/JDSTATS/ncaastatpages.com/test/functional/tsos_offenses_controller_test.rb",
-		"/C/Development/JDSTATS/ncaastatpages.com/test/functional/tsos_special_teams_controller_test.rb",
-		"/C/Development/JDSTATS/ncaastatpages.com/test/functional/offense_controller_test.rb"
+		"/C/Development/JDSTATS/ncaastatpages.com/test/functional/tsos_offenses_controller_test.rb"
 	],
 	"find":
 	{
@@ -539,15 +539,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 9255,
+						"buffer_size": 9282,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								7632,
+								7632
 							]
 						],
 						"settings":
@@ -557,7 +557,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 5756.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -575,8 +575,8 @@
 						"selection":
 						[
 							[
-								0,
-								0
+								2497,
+								2497
 							]
 						],
 						"settings":
