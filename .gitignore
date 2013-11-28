@@ -1,1 +1,11 @@
 .commands
+.bundle
+db/*.sqlite3
+log/*.log
+tmp/
+cookbooks
+tmp
+rails-for-windows.sublime-workspace*
+rails-for-windows.sublime-project*
+.vagrant
+Vagrantfile

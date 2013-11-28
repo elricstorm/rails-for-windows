@@ -144,34 +144,10 @@
 	"buffers":
 	[
 		{
-			"file": "readme.md",
+			"file": ".commands",
 			"settings":
 			{
-				"buffer_size": 9918,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "docs/template.html",
-			"settings":
-			{
-				"buffer_size": 2481,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "docs/css/screen.css",
-			"settings":
-			{
-				"buffer_size": 9282,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "docs/chap01.md",
-			"settings":
-			{
-				"buffer_size": 5660,
+				"buffer_size": 99,
 				"line_ending": "Windows"
 			}
 		}
@@ -207,9 +183,12 @@
 	},
 	"file_history":
 	[
+		"/C/Development/rails4stack/rails-for-windows/docs/css/screen.css",
+		"/C/Development/rails4stack/rails-for-windows/docs/chap01.md",
+		"/C/Development/rails4stack/rails-for-windows/docs/template.html",
+		"/C/Development/rails4stack/rails-for-windows/readme.md",
 		"/C/Users/Joel/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
 		"/C/Development/rails4stack/rails-for-windows/docs/index.md",
-		"/C/Development/rails4stack/rails-for-windows/docs/chap01.md",
 		"/C/Development/rails4stack/rails-for-windows/.gitignore",
 		"/C/Development/JDSTATS/ncaastatpages.com/.gitignore",
 		"/C/Users/Joel/.bashrc",
@@ -331,10 +310,7 @@
 		"/C/Development/JDSTATS/ncaastatpages.com/test/functional/trends_controller_test.rb",
 		"/C/Development/JDSTATS/ncaastatpages.com/test/fixtures/trends.yml",
 		"/C/Development/JDSTATS/ncaastatpages.com/app/controllers/conferences_controller.rb",
-		"/C/Development/JDSTATS/ncaastatpages.com/app/views/site_reports/_form.html.erb",
-		"/C/Development/JDSTATS/ncaastatpages.com/app/views/site_reports/show.html.erb",
-		"/C/Development/JDSTATS/ncaastatpages.com/test/functional/tsos_defenses_controller_test.rb",
-		"/C/Development/JDSTATS/ncaastatpages.com/test/functional/tsos_offenses_controller_test.rb"
+		"/C/Development/JDSTATS/ncaastatpages.com/app/views/site_reports/_form.html.erb"
 	],
 	"find":
 	{
@@ -474,114 +450,29 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "readme.md",
+					"file": ".commands",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 9918,
+						"buffer_size": 99,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								99,
+								99
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Markdown/Markdown.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "docs/template.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2481,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "docs/css/screen.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 9282,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								7632,
-								7632
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 5756.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "docs/chap01.md",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 5660,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2497,
-								2497
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
