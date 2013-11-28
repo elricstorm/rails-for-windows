@@ -16,6 +16,7 @@ mkdir $env:userprofile\.gems
 [Environment]::SetEnvironmentVariable("GEM_HOME",$env:userprofile + "\.gems","User")
 [Environment]::SetEnvironmentVariable("GEM_PATH",$env:userprofile + "\.gems","User")
 [Environment]::SetEnvironmentVariable("PATH",$env:path + ";" + $env:userprofile + "\.gems\bin","User")
+# Proxies below
 # [Environment]::SetEnvironmentVariable("HTTP_PROXY","http://yourproxy:port","User")
 
 # Install Ruby & Development Kit
