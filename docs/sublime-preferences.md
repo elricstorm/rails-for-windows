@@ -50,7 +50,8 @@
 	"ignored_words":
 	[
 		"linux",
-		"mac"
+		"mac",
+		"YourCustomWordsHere"
 	],
 	"rulers":
 	[
