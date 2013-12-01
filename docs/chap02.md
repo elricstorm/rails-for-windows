@@ -57,7 +57,7 @@ Copy and paste in the settings from [sublime-preferences] (http://elricstorm.vie
 
 Next, download the [Inconsolata font] (http://www.levien.com/type/myfonts/inconsolata.html).  It's a great font for developing and coding.  Use the .otf version and once you download it, just click and install it.  It's that easy.  Now then, restart sublime text 3 and you should see everything looks pretty solid.  Good job!
 
-###### Foundation
+##### [Zurb Foundation] (http://foundation.zurb.com/)
 
 If you are planning on using Zurb Foundation in your rails project, I would recommend importing some of foundation's sublime 3 snippets:
 
