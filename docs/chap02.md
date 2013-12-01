@@ -57,6 +57,43 @@ Copy and paste in the settings from [sublime-preferences] (http://elricstorm.vie
 
 Next, download the [Inconsolata font] (http://www.levien.com/type/myfonts/inconsolata.html).  It's a great font for developing and coding.  Use the .otf version and once you download it, just click and install it.  It's that easy.  Now then, restart sublime text 3 and you should see everything looks pretty solid.  Good job!
 
+###### Foundation
+
+If you are planning on using Zurb Foundation in your rails project, I would recommend importing some of foundation's sublime 3 snippets:
+
+From a cmd prompt:
+
+     cd "%AppData%\Sublime Text 3\Packages\User"
+     git clone https://github.com/zurb/foundation-5-sublime-snippets.git
+
+* Each snippet is prefixed with zf- (ZURB Foundation).
+* Each snippet is singular, unless the name of the component ends in an s (offcanvas)
+* Available classes are included as comments in the snippets
+
+Available Components Offcanvas:
+
+    zf-topbar + tab
+    zf-sidenav + tab
+    zf-subnav + tab
+    zf-breadcrumb + tab
+    zf-pagination + tab
+    zf-orbit + tab
+    zf-clearing + tab
+    zf-button + tab
+    zf-button-group + tab
+    zf-split-button + tab
+    zf-dropdown-button + tab
+    zf-reveal + tab
+    zf-alert + tab
+    zf-panel + tab
+    zf-pricing-table + tab
+    zf-progress-bar + tab
+    zf-accordion + tab
+    zf-tab + tab
+    zf-vertical-tab + tab
+
+Once imported, restart Sublime and then go to Tools > Snippets.  Type in **zf** to see a full list of foundation quick actions.  These will allow you to quickly create foundation classes.  Test it out in an erb or html file.
+
 ### VirtualBox
 
 TODO
