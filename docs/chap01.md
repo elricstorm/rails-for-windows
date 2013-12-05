@@ -105,8 +105,8 @@ Win7: Click **Start** > Type **cmd** and hit the Enter key
 
 Win8: Press the Windows key on your keyboard > Type **cmd** and hit the Enter key
 
-* C:\Users\Joel>**set**
-* C:\Users\Joel>**set _nameOfVariable_**
+     C:\Users\Joel> set
+     C:\Users\Joel> set nameOfVariable
 
 <a href="http://www.flickr.com/photos/69355230@N03/10979561275/" title="cmd_environment"><img src="http://farm4.staticflickr.com/3811/10979561275_c62d9ce40e_b.jpg" width="667" height="787" alt="cmd_environment"></a>
 
@@ -114,10 +114,10 @@ The command prompt allows you to find/retrieve your environment variables throug
 
 ##### PowerShell
 
-Finding your environment variables in PowerShell is also relatively easy.  Go to Start > type powershell and open *Windows PowerShell*.  Type the following (in bold below):
+Finding your environment variables in PowerShell is also relatively easy.  Go to Start > type powershell and open *Windows PowerShell*.  Type the following:
 
-* PS C:\Users\Joel> **cd env:**
-* PS Env:\> **dir**
+     PS C:\Users\Joel> cd env:
+     PS Env:\> dir
 
 <a href="http://www.flickr.com/photos/69355230@N03/10979657776/" title="ps_environment"><img src="http://farm8.staticflickr.com/7405/10979657776_a86a6201eb_c.jpg" width="800" height="603" alt="ps_environment"></a>
 
@@ -125,7 +125,60 @@ PowerShell allows you to go straight to your environment path and view your vari
 
 #### Setting Environment Variables
 
-todo
+##### GUI View
+
+Win7: Click **Start** > Type **environment** > select **Edit the system environment variables** > click the Environment Variables button
+
+Win8: Press the **Windows key** on your keyboard > Type **environment** > select **system** > select **Edit the system environment variables** > click the Environment Variables button
+
+For user specific variables that only apply to you, variables can be created and set in the top section.  Click the **New** button and type a variable name and also a variable value.  As an example, if you wanted to set your GEM paths to a specific location you could do:
+
+     Variable name:  GEM_HOME
+     Variable value: C:\Users\YourUserName\.gems
+
+Likewise, you can also reference another location from its variable name by surrounding it with the percent sign (%).  Let's say you want to set the GEM_PATH variable to the GEM_HOME location as well.
+
+     Variable name:  GEM_PATH
+     Variable value: %GEM_HOME%
+
+For system variables, if you wanted to append to your current path you would find the Path variable and click the **Edit** button.  Go to the end of the line and place a semicolon ; and then add your new path location.  Example:  ;C:\SomeNewPath\Location.
+
+##### Command Prompt
+
+Win7: Click **Start** > Type **cmd** and hit the Enter key
+
+Win8: Press the Windows key on your keyboard > Type **cmd** and hit the Enter key
+
+     C:\> setx /?
+
+Here are some examples (you do not need to set these):
+
+     C:\> setx PATHEXT %PATHEXT%;.RB;.RBW
+     C:\> setx HTTP_PROXY http://yourproxy:port
+     C:\> setx HOME %USERPROFILE%
+     C:\> setx GEM_HOME %HOME%\.gems
+     C:\> setx GEM_PATH %GEM_HOME%
+     C:\> setx CHOCOLATEY_BIN_ROOT C:\Development
+
+Setx takes the following simple conditions:  SETX [SOME_VARIABLE] [SOME_VALUE] (without the brackets).  
+
+##### PowerShell
+
+Go to Start > type powershell and open *Windows PowerShell*.  Type the following:
+
+     PS C:\> cd env:
+     PS Env:\> dir
+
+Notice all of those environment variables.  You can edit them by just typing:
+
+     PS C:\> $env:NAMEofVARIABLE = "SomeValue";
+
+If you want to create a new variable run an example test using:
+
+     PS C:\> $env:TESTVAR = "C:\"
+     PS C:\> dir
+
+You should see your new test variable.  I should also note that you still have the availability of using the setx commands in PS.  So, you could use that method also.  
 
 ### Working with and setting up the PowerShell environment  
 
