@@ -15,11 +15,82 @@ That should get you started initially.  If you plan on doing manual installation
 
 The topics we will discuss here are:
 
-* IDE and Text Editors
 * VirtualBox
+* Structuring and Organizing your Development Area
+* IDE and Text Editors
 * PowerShell Scripting
 * NuGet & Chocolatey
 * Handling Proxies
+
+### [VirtualBox] (https://www.virtualbox.org/)
+
+VirtualBox is a cross-platform virtualization application. What does that mean? For one thing, it installs on your existing Intel or AMD-based computers operating system. Secondly, it extends the capabilities of your existing computer so that it can run multiple operating systems (inside multiple virtual machines) at the same time. So, for example, you can run Windows 8, Windows 8.1 preview, and even Linux on your Windows PC, all alongside your existing applications. You can install and run as many virtual machines as you like -- the only practical limits are disk space and memory.
+
+VirtualBox is free and the binaries are released under the terms of the GPL version 2 license.  Visit the [downloads] (https://www.virtualbox.org/wiki/Downloads) section to find the latest platform package for Windows hosts.  
+
+If you plan to not utilize virtualization in development, you can skip the download and install of VirtualBox.
+
+Once installed you can read up on using VirtualBox by accessing the [User Manual] (http://dlc.sun.com.edgesuite.net/virtualbox/4.3.4/UserManual.pdf).  We will go over VirtualBox more in Chapter 3.  
+
+### Structuring and Organizing your Development Area
+
+Before beginning any new development project it is important to determine the layout and structure of your working area.  
+
+##### Virtual or Local
+
+VMs have their advantages.  The ability to build an environment in minutes, test or isolate application scenarios, and then break it all down in moments can be a wonderful thing. VMs operate independently and don't affect any local configurations at all.  If you plan on staying with a simple structured environment with very few base changes, you may decide to keep a local non-virtual environment.  If you plan on setting up a VM see **Chapter 03:**  **Virtualization** and then come back here.  Otherwise, let's continue on.  
+
+### Design your environment on paper
+
+Sometimes the simplest approach to deciding where things are going to go and how things will work is just to take out a piece of paper and start writing your ideas down as a form of questions.  
+
+###### Questioning and Setting Your Own Expectations
+
+     \> Are you planning on developing GUI tools or other apps with Ruby by itself?
+     \> Are you planning to only use ruby on rails and work with web development?
+     \> If web development is your focus, what type of stack do you want to build?
+     \> Are there any special dependencies you need for your development stack?
+     \> What editor or IDE do you want to use when coding or developing?
+     \> Do you plan on using a VM for virtual developing?
+     \> How do you plan on handling versioning and backups?
+     \> If using databases, what type of database management system will you use?
+
+This is a very simple list of questions that help you determine what things you may want to consider.  For instance, if you plan on developing GUI apps at some point, you might want to check out WxRuby widgets. You also may want to have a GitHub account for backing up and handling versioning.  Try to focus on core components and ideas pertaining to how you develop.  The pieces you need later to complete your website can be saved for another time. 
+
+You may want to also organize a checklist:
+
+- [x] Install and use VirtualBox for VM management
+- [x] Install and use a Windows 8.1 VM
+- [x] Configure Windows PowerShell
+- [ ] Install and use Chocolatey and NuGet for package management
+- [ ] Install Ruby 2.0 using Chocolatey
+- [ ] Install Rails 4.x using Chocolatey
+- [ ] Install Uru for managing Ruby environments
+- [ ] Install MySQL using Chocolatey for my Database Management
+- [ ] Install and use Msysgit and GitHub
+- [x] Install and use Sublime Text 3 as my code editor
+- [ ] Set Windows Environment Paths for Ruby Path Extensions
+- [ ] Set Windows Environment Paths for Gems
+- [ ] Set Windows Environment Paths for Chocolatey 
+
+You don't have to do anything right now.  This is just an example list.  You may also want to determine if you would like to setup your directory structures a certain way.  Maybe you'd like everything that is tool related to automatically go in C:\tools\bin, or you might want to have a development library setup in C:\Development.  
+
+Take a few minutes to determine what you want.  If you don't know then you may want to **embrace the stack**.  
+
+###### Embracing the Stack
+
+Don't know what you want?  That's fine.  Start with a default stack that someone else created for you.  A stack can be a number of items that form a working environment.  An example stack might be:
+
+* Windows 8.1
+* Ruby 2.0
+* Rails 4.0
+* Mongrel
+* RubyMine IDE
+* MongoDB
+* Rspec | Cucumber Testing
+
+This is just a base example.  You start with someone else's idea in a VM test environment, play with it, get to know it, and then decide what you like the most.  You can then test other stacks until you find a good mix and match of development style that fits your own.  Then create your own stack!  This is one reason why a VM may be one of the best options to go as it provides very good flexibility.
+
 
 ### IDE or Text Editors
 
@@ -93,10 +164,6 @@ Available Components Offcanvas:
     zf-vertical-tab + tab
 
 Once imported, restart Sublime and then go to Tools > Snippets.  Type in **zf** to see a full list of foundation quick actions.  These will allow you to quickly create foundation classes.  Test it out in an erb or html file.
-
-### VirtualBox
-
-TODO
 
 ### PowerShell Scripting
 
