@@ -49,7 +49,22 @@ VMs have their advantages.  The ability to build an environment in minutes, test
 
 ##### Design your environment on paper
 
-Sometimes the simplest approach to deciding where things are going to go and how things will work is just to take out a piece of paper and start writing your ideas down or organize a checklist.  As an example from my notes:
+Sometimes the simplest approach to deciding where things are going to go and how things will work is just to take out a piece of paper and start writing your ideas down or organize a checklist.  
+
+###### Questioning and Setting Your Own Expectations
+
+     Are you planning on developing GUI tools or other apps with Ruby by itself?
+     Are you planning to only use ruby on rails and work with web development?
+     If web development is your focus, what type of stack do you want to build?
+     Are there any special dependencies you need for your development stack?
+     What editor or IDE do you want to use when coding or developing?
+     Do you plan on using a VM for virtual developing?
+     How do you plan on handling versioning and backups?
+     If using databases, what type of database management system will you use?
+
+This is a very simple list of questions that help you determine what things you may want to consider.  For instance, if you plan on developing GUI apps at some point, you might want to check out WxRuby widgets. You also may want to have a GitHub account for backing up and handling versioning.  Try to focus on core components and ideas pertaining to how you develop.  The pieces you need later to complete your website can be saved for another time. 
+
+As an example from my notes:
 
 * [x] Install and use VirtualBox for VM management
 * [x] Install and use a Windows 8.1 VM
@@ -218,3 +233,11 @@ Likewise, understand that PowerShell utilizes "objects" and "classes" similar to
      PS C:\Some\Path> Get-ExecutionPolicy | Get-Member
 
 And, you'll notice that there's a nice list of methods you can access for Microsoft.PowerShell.ExecutionPolicy.  If you followed this far, you've earned some **extra credit**!
+
+#### 32-bit or 64-bit Environment
+
+The benefits of using a 64-bit operating system are most apparent when you have a large amount of random access memory (RAM) installed on your computer, typically 4 GB of RAM or more. In such cases, because a 64-bit operating system can handle large amounts of memory more efficiently than a 32-bit operating system, a 64-bit system can be more responsive when running several programs at the same time and switching between them frequently.  Driver support is likely to be a non-issue with newer systems now as most software developers have worked diligently to keep up with changes in technology.
+
+Most programs designed for the 32-bit version of Windows will work on the 64-bit version of Windows. Notable exceptions are many antivirus programs.  
+
+Ruby also comes in 32-bit and 64-bit flavors.  We'll discuss some of the issues with Ruby versions in **Chapter 02: Getting Started**.
