@@ -8,7 +8,6 @@ Before you jump into this chapter let me start by setting some very simple expec
 
 The topics we will discuss here are:
 
-* Structuring and Organizing your development areas
 * Working with and how to set Environment Variables
 * Working with and how to set up the PowerShell environment  
 
@@ -37,66 +36,7 @@ For those of you unfamiliar to Windows 8.1 I recommend installing it for free!  
 
 Windows is one of the easiest operating environments to use from a feature, hardware, software, and support viewpoint.  One of the main reasons is that the [usage share] (http://en.wikipedia.org/wiki/Usage_share_of_operating_systems) is much greater with **any** windows environment than it is with Linux and Mac.  Even newly showcased Windows 8 has a much greater usage share than Linux and Mac (roughly 9.25% compared to Mac(7.73%) and Linux(1.61%)).  Windows 7's usage is at almost 47%!  Windows also has better commercial support worldwide than any other environment.  I personally use (all) windows environments, Linux (centOS, Ubuntu), and MAC (Leopard).  This is not a discussion about whether or not Windows is better than the other environments.  That discussion is heavily opinionated and available all over the web.  
 
-Everything you need to initially setup and use Ruby and Ruby on Rails (RoR) is just as readily available for Windows as it is for any other operating environments.  You aren't going to install Ruby (the language) or RoR (the framework) and find out you can't use them.  You will also find that what you thought you knew about Windows as a development environment has changed by leaps and bounds over the years.
-
-### Structuring and Organizing your Development Area
-
-Before beginning any new development project it is important to determine the layout and structure of your working area.  
-
-##### Virtual or Local
-
-VMs have their advantages.  The ability to build an environment in minutes, test or isolate application scenarios, and then break it all down in moments can be a wonderful thing. VMs operate independently and don't affect any local configurations at all.  If you plan on staying with a simple structured environment with very few base changes, you may decide to keep a local non-virtual environment.  If you plan on setting up a VM see **Chapter 03:  Virtualization** and then come back here.  Otherwise, let's continue on.  
-
-##### Design your environment on paper
-
-Sometimes the simplest approach to deciding where things are going to go and how things will work is just to take out a piece of paper and start writing your ideas down or organize a checklist.  
-
-###### Questioning and Setting Your Own Expectations
-
-     Are you planning on developing GUI tools or other apps with Ruby by itself?
-     Are you planning to only use ruby on rails and work with web development?
-     If web development is your focus, what type of stack do you want to build?
-     Are there any special dependencies you need for your development stack?
-     What editor or IDE do you want to use when coding or developing?
-     Do you plan on using a VM for virtual developing?
-     How do you plan on handling versioning and backups?
-     If using databases, what type of database management system will you use?
-
-This is a very simple list of questions that help you determine what things you may want to consider.  For instance, if you plan on developing GUI apps at some point, you might want to check out WxRuby widgets. You also may want to have a GitHub account for backing up and handling versioning.  Try to focus on core components and ideas pertaining to how you develop.  The pieces you need later to complete your website can be saved for another time. 
-
-As an example from my notes:
-
-* [x] Install and use VirtualBox for VM management
-* [x] Install and use a Windows 8.1 VM
-* [ ] Configure Windows PowerShell
-* [ ] Install and use Chocolatey and NuGet for package management
-* [ ] Install Ruby 2.0 using Chocolatey
-* [ ] Install Rails 4.x using Chocolatey
-* [ ] Install Uru for managing Ruby environments
-* [ ] Install MySQL using Chocolatey for my Database Management
-* [ ] Install and use Msysgit and GitHub
-* [x] Install and use Sublime Text 3 as my code editor
-* [ ] Set Windows Environment Paths for Ruby Path Extensions
-* [ ] Set Windows Environment Paths for Gems
-* [ ] Set Windows Environment Paths for Chocolatey 
-
-You don't have to do anything right now.  This is just an example list.  You may also want to determine if you would like to setup your directory structures a certain way.  Maybe you'd like everything that is tool related to automatically go in C:\tools\bin, or you might want to have a development library setup in C:\Development.  
-
-Take a few minutes to determine what you want.  If you don't know then you may want to **embrace the stack**.  
-
-###### Embracing the Stack
-
-Don't know what you want?  That's fine.  Start with a default stack that someone else created for you.  A stack can be a number of items that form a working environment.  An example stack might be:
-
-* Windows 8.1
-* Ruby 2.0
-* Rails 4.0
-* Mongrel
-* RubyMine IDE
-* MongoDB
-* Rspec | Cucumber Testing
-
-This is just a base example.  You start with someone else's idea in a VM test environment, play with it, get to know it, and then decide what you like the most.  You can then test other stacks until you find a good mix and match of development style that fits your own.  Then create your own stack!  This is one reason why a VM may be one of the best options to go as it provides very good flexibility.
+Everything you need to initially setup and use Ruby and Ruby on Rails (RoR) is just as readily available for Windows as it is for any other operating environments.  You aren't going to install Ruby (the language) or RoR (the framework) and find out you can't use them.  You will also find that what you thought you knew about Windows as a development environment has changed quite substantially over the years.
 
 ### Working with and setting up Environment Variables
 
@@ -236,8 +176,8 @@ And, you'll notice that there's a nice list of methods you can access for Micros
 
 #### 32-bit or 64-bit Environment
 
-The benefits of using a 64-bit operating system are most apparent when you have a large amount of random access memory (RAM) installed on your computer, typically 4 GB of RAM or more. In such cases, because a 64-bit operating system can handle large amounts of memory more efficiently than a 32-bit operating system, a 64-bit system can be more responsive when running several programs at the same time and switching between them frequently.  Driver support is likely to be a non-issue with newer systems now as most software developers have worked diligently to keep up with changes in technology.
+The benefits of using a 64-bit operating system are most apparent when you have a large amount of random access memory (RAM) installed on your computer, typically 4 GB of RAM or more. In such cases, because a 64-bit operating system can handle large amounts of memory more efficiently than a 32-bit operating system, a 64-bit system can be more responsive when running several programs at the same time and switching between them frequently.  Driver support is likely to be a non-issue with newer systems now as most software developers have worked diligently to keep up with changes in technology.  Most programs designed for the 32-bit version of Windows will work on the 64-bit version of Windows. Notable exceptions are many antivirus programs.  
 
-Most programs designed for the 32-bit version of Windows will work on the 64-bit version of Windows. Notable exceptions are many antivirus programs.  
+If you plan on using virtualization, you can make use of multi-core processors and additional RAM to run multiple instances simultaneously.  32-bit OS environments do not allow you to make use of RAM over 4gb whereas 64-bit does.  
 
-Ruby also comes in 32-bit and 64-bit flavors.  We'll discuss some of the issues with Ruby versions in **Chapter 02: Getting Started**.
+Ruby also comes in 32-bit and 64-bit flavors.  We'll discuss some of the issues with Ruby versions in **Chapter 02: Getting Started**.  However, the main issues you may encounter when operating on 64-bit Ruby environment are with pre-compiled gems.  Some gems may not work.  
