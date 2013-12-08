@@ -9,7 +9,7 @@ Before continuing you should make sure you have all of the tools necessary to co
 * *[VirtualBox] (https://www.virtualbox.org/wiki/Downloads)* (if you plan on installing a VM)
 * Text Editor (recommended [Sublime Text 3] (http://www.sublimetext.com/3))
 
-That should get you started initially.  If you plan on doing manual installations later on, you can look at the pre-requisites in **Chapter 05: Manual Installations**.  Otherwise, no other software is required.  If you decide you don't want to use Sublime Text 3 but still want a solid free code editor, I recommend [SciTE] (http://www.scintilla.org/SciTE.html).  
+That should get you started initially.  If you plan on doing manual installations later on, you can look at the pre-requisites in **Chapter 05: Manual Installations**.  Otherwise, no other software is required.  If you decide you don't want to use Sublime Text 3 but still want a solid free code editor, I recommend [SciTE] (http://www.scintilla.org/SciTE.html).
 
 #### Setting Expectations
 
@@ -18,31 +18,29 @@ The topics we will discuss here are:
 * VirtualBox
 * Structuring and Organizing your Development Area
 * IDE and Text Editors
-* PowerShell Scripting
-* NuGet & Chocolatey
 * Handling Proxies
 
 ### [VirtualBox] (https://www.virtualbox.org/)
 
 VirtualBox is a cross-platform virtualization application. What does that mean? For one thing, it installs on your existing Intel or AMD-based computers operating system. Secondly, it extends the capabilities of your existing computer so that it can run multiple operating systems (inside multiple virtual machines) at the same time. So, for example, you can run Windows 8, Windows 8.1 preview, and even Linux on your Windows PC, all alongside your existing applications. You can install and run as many virtual machines as you like -- the only practical limits are disk space and memory.
 
-VirtualBox is free and the binaries are released under the terms of the GPL version 2 license.  Visit the [downloads] (https://www.virtualbox.org/wiki/Downloads) section to find the latest platform package for Windows hosts.  
+VirtualBox is free and the binaries are released under the terms of the GPL version 2 license.  Visit the [downloads] (https://www.virtualbox.org/wiki/Downloads) section to find the latest platform package for Windows hosts.
 
 If you plan to not utilize virtualization in development, you can skip the download and install of VirtualBox.
 
-Once installed you can read up on using VirtualBox by accessing the [User Manual] (http://dlc.sun.com.edgesuite.net/virtualbox/4.3.4/UserManual.pdf).  We will go over VirtualBox more in Chapter 3.  
+Once installed you can read up on using VirtualBox by accessing the [User Manual] (http://dlc.sun.com.edgesuite.net/virtualbox/4.3.4/UserManual.pdf).  We will go over VirtualBox more in Chapter 3.
 
 ### Structuring and Organizing your Development Area
 
-Before beginning any new development project it is important to determine the layout and structure of your working area.  
+Before beginning any new development project it is important to determine the layout and structure of your working area.
 
 ##### Virtual or Local
 
-VMs have their advantages.  The ability to build an environment in minutes, test or isolate application scenarios, and then break it all down in moments can be a wonderful thing. VMs operate independently and don't affect any local configurations at all.  If you plan on staying with a simple structured environment with very few base changes, you may decide to keep a local non-virtual environment.  If you plan on setting up a VM see **Chapter 03:**  **Virtualization** and then come back here.  Otherwise, let's continue on.  
+VMs have their advantages.  The ability to build an environment in minutes, test or isolate application scenarios, and then break it all down in moments can be a wonderful thing. VMs operate independently and don't affect any local configurations at all.  If you plan on staying with a simple structured environment with very few base changes, you may decide to keep a local non-virtual environment.  If you plan on setting up a VM see **Chapter 03:**  **Virtualization** and then come back here.  Otherwise, let's continue on.
 
 ### Design your environment on paper
 
-Sometimes the simplest approach to deciding where things are going to go and how things will work is just to take out a piece of paper and start writing your ideas down as a form of questions.  
+Sometimes the simplest approach to deciding where things are going to go and how things will work is just to take out a piece of paper and start writing your ideas down as a form of questions.
 
 ###### Questioning and Setting Your Own Expectations
 
@@ -55,7 +53,7 @@ Sometimes the simplest approach to deciding where things are going to go and how
      \> How do you plan on handling versioning and backups?
      \> If using databases, what type of database management system will you use?
 
-This is a very simple list of questions that help you determine what things you may want to consider.  For instance, if you plan on developing GUI apps at some point, you might want to check out WxRuby widgets. You also may want to have a GitHub account for backing up and handling versioning.  Try to focus on core components and ideas pertaining to how you develop.  The pieces you need later to complete your website can be saved for another time. 
+This is a very simple list of questions that help you determine what things you may want to consider.  For instance, if you plan on developing GUI apps at some point, you might want to check out WxRuby widgets. You also may want to have a GitHub account for backing up and handling versioning.  Try to focus on core components and ideas pertaining to how you develop.  The pieces you need later to complete your website can be saved for another time.
 
 You may want to also organize a checklist:
 
@@ -71,11 +69,11 @@ You may want to also organize a checklist:
 - [x] Install and use Sublime Text 3 as my code editor
 - [ ] Set Windows Environment Paths for Ruby Path Extensions
 - [ ] Set Windows Environment Paths for Gems
-- [ ] Set Windows Environment Paths for Chocolatey 
+- [ ] Set Windows Environment Paths for Chocolatey
 
-You don't have to do anything right now.  This is just an example list.  You may also want to determine if you would like to setup your directory structures a certain way.  Maybe you'd like everything that is tool related to automatically go in C:\tools\bin, or you might want to have a development library setup in C:\Development.  
+You don't have to do anything right now.  This is just an example list.  You may also want to determine if you would like to setup your directory structures a certain way.  Maybe you'd like everything that is tool related to automatically go in C:\tools\bin, or you might want to have a development library setup in C:\Development.
 
-Take a few minutes to determine what you want.  If you don't know then you may want to **embrace the stack**.  
+Take a few minutes to determine what you want.  If you don't know then you may want to **embrace the stack**.
 
 ###### Embracing the Stack
 
@@ -94,9 +92,13 @@ This is just a base example.  You start with someone else's idea in a VM test en
 
 ### IDE or Text Editors
 
-An IDE normally consists of a source code editor, build automation tools and a debugger. Several modern IDEs integrate with Intelli-sense coding features.  Editors are standard text or code editors that may or may not do additional tasks.  You could call some of the fancier editors hybrid IDE applications.  Some IDEs that are usable on Windows include RubyMine and Netbeans.  Both of these IDEs have extreme load times and tend to bottleneck resources.  
+An IDE normally consists of a source code editor, build automation tools and a debugger. Several modern IDEs integrate with Intelli-sense coding features.  Editors are standard
+text or code editors that may or may not do additional tasks.  You could call some of the fancier editors hybrid IDE applications.  Some IDEs that are usable on Windows
+include RubyMine and Netbeans.  Both of these IDEs have extreme load times and tend to bottleneck resources.
 
-For our tutorials I recommend [Sublime Text 3] (http://www.sublimetext.com/3).  It is a very sophisticated and extremely easy to use editor that has very little resource usage.  
+For our tutorials I recommend [Sublime Text 3] (http://www.sublimetext.com/3).  It is a very sophisticated and extremely easy to use editor that has very little resource usage.
+
+     NOTE:  If you plan on using a VM, you can come back to these instructions after you've created your VM and installed Sublime Text 3 on it instead.  Otherwise, if you're doing this locally and without a VM you can finish the setup configuration below:
 
 After you have sublime text 3 downloaded and running, do the following:
 
@@ -106,7 +108,7 @@ Setup Package Control.
 
 Copy and Paste the following below into the console and hit enter.
 
-     import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())     
+     import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())
 
 Close and restart Sublime Text 3.  Next, let's add some packages to make it look more friendly:
 
@@ -124,7 +126,7 @@ Edit your user preferences:
 
      Click Preferences > Settings-User
 
-Copy and paste in the settings from [sublime-preferences] (http://elricstorm.viewdocs.io/rails-for-windows/sublime-preferences).  Also, you may want to change/edit the ignored words.  I threw in a couple of words for fun.  
+Copy and paste in the settings from [sublime-preferences] (http://elricstorm.viewdocs.io/rails-for-windows/sublime-preferences).  Also, you may want to change/edit the ignored words.  I threw in a couple of words for fun.
 
 Next, download the [Inconsolata font] (http://www.levien.com/type/myfonts/inconsolata.html).  It's a great font for developing and coding.  Use the .otf version and once you download it, just click and install it.  It's that easy.  Now then, restart sublime text 3 and you should see everything looks pretty solid.  Good job!
 
@@ -165,17 +167,13 @@ Available Components Offcanvas:
 
 Once imported, restart Sublime and then go to Tools > Snippets.  Type in **zf** to see a full list of foundation quick actions.  These will allow you to quickly create foundation classes.  Test it out in an erb or html file.
 
-### PowerShell Scripting
-
-TODO
-
-### NuGet & Chocolatey
-
-TODO
-
 ### Handling Proxies
 
-TODO
+If you are operating behind a proxy (at work for example) and encounter any type of download/setup issue going forward, you may need to add a proxy to your local path.  To
+add a proxy, do the following from an elevated CMD prompt as an administrator:
+
+     C:\> setx HTTP_PROXY "http://yourproxy:port" (ex: ascproxy:80)
+     C:\> setx HTTPS_PROXY "https://yourproxy:port" (use this command instead of HTTP if your work is using an HTTPS proxy instead - not usually the case)
 
 ### Questions or related searches
 
