@@ -35,7 +35,8 @@ When prompted, click Y for Yes and hit enter.  Now if you type Get-ExecutionPoli
 ##### Chocolatey Packages with PS
 
 Let's run some updates and install some packages with PS to make it feel more like a Windows Dev environment!  You can copy and paste the commands into PS if you want.  If you
-want to know what each app does, you can type the app in the chocolatey.org search box and read about it.  Do these in order.
+want to know what each app does, you can type the app in the chocolatey.org search box and read about it.  Do these in order.  Also note that some of the commands may be
+slightly longer in PS.  The main reason is to teach you how to run additional commands in PS.
 
      C:\> chocolatey update
      C:\> cup all
@@ -79,7 +80,7 @@ Install Ruby and Ruby DevKit
 Install and update Gems and Rails
 
      C:\> cmd /c start powershell -command {gem update --system}
-     C:\> choco gem rails
+     C:\> cmd /c start powershell -command {gem install rails}
 
 Install MySQL and gems
 

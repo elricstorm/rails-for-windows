@@ -42,27 +42,31 @@ BoxStarter allows you to create an install script that can automate everything y
 web browser and navigate to the following URL:  [Rails 4 Windows Script](https://gist.github.com/elricstorm/7853016).  This is a simple example script showing the items
 we'll be installing.
 
-In order to use boxstarter via a gist script like this we need to find the raw text.  Click the <> raw text link to the upper right of the script.  You should see that the
+In order to use boxstarter via a remote script like this we need to find the raw text and URL.  Click the <> raw text link to the upper right of the script.  You should see that the
 URL now shows:  https://gist.github.com/elricstorm/7853016/raw/0044e705651fe770cdb76bd89a7154697ebdf473/rails4windows.  We'll copy this and place this URL in a boxstarter
 START command:
 
      PS C:\Windows\System32> START http://boxstarter.org/package/url?https://gist.github.com/elricstorm/7853016/raw/250e2e03ab65a68bc0fdd2d2d91c7c26f4bd57c9/rails4windows
 
-This command can be copied and pasted into PS to start the automated process.  Now we can use local scripts, gist scripts like this one, or even package things onto a
-USB flash drive.  For this automated example, I'm going to use a simple gist script.  Copy and paste this into PS and hit enter.
+Please note that if you create your own script and place it on gist.github.com and then edit it later on, the raw text URL will change after the new edit is published.  Always
+make sure to click the <> raw text link after a new publish to find the URL.
+
+The START command above can be copied and pasted into PS to start the automated process.  Hit enter after pasting to begin the process.  We are able to use local scripts, gist
+scripts like this one, or even package things onto a USB flash drive.
 
 If you see any prompts, select the default **Yes/Ok/Run/Download and Install this Feature** prompts.  Automation should continue.  If prompted for a password, make sure to
 use the Passw0rd! from the IEUser installation.
 
 **THIS PROCESS MAY TAKE AWHILE**
 
-If you step away during this time and come back to find yourself at the Windows 8 metro view, click Desktop and the process will continue.  If the automation process fails for any
-reason, hit enter and open a new window and try the process again.  Watch and review any errors, if they occur.  If the machine reboots, it will automatically log in with the
+If you step away during this time and come back to find yourself at the Windows 8 metro view, click **Desktop** and the process will continue.  If the automation process fails for any
+reason, you can open a new window and try the process again.  Watch and review any errors, if they occur.  If the machine reboots, it will automatically log in with the
 password you provided and bring you to the metro view.  Click desktop and wait for the process to continue.  Likewise, if Windows prompts you to do system updates, you can cancel
 and update later on.
 
-Always remember that you can always restart the automated process again.  Chocolatey will automatically know if you have already installed an application and bypass it,
-continuing on with the installation script.
+Always remember that you can restart the automated process again as often as you like.  Chocolatey will know if you have already installed an application and bypass it,
+continuing on with the installation script.  In fact, when the automated process is completed, I recommend that you run the automated script a second time to see the process
+in action.
 
 <a href="http://www.flickr.com/photos/69355230@N03/11263555476/" title="install_automated"><img src="http://farm4.staticflickr.com/3815/11263555476_1ba6eb50be_o.png" width="666" height="338" alt="install_automated"></a>
 
