@@ -163,19 +163,38 @@ After saving your file, let's create the database and migrate it.
      C:\Development\wrails> bundle exec rake db:create
      C:\Development\wrails> bundle exec rake db:migrate
 
-If you encounter any errors when trying to create your DB, attempt to set the
-
 #### Running your application
 
      C:\Development\wrails> rails server
 
-If you are prompted with a Windows Security Alert message, check both private and public networks and then click the **Allow access** button.  Once
-completed, open your web browser and navigate to [http://localhost:3000](http://localhost:3000).  You should receive a Welcome aboard, You're riding
+If you are prompted with a Windows Security Alert message, check both private and public networks and then click the **Allow access** button.
+
+<a href="http://www.flickr.com/photos/69355230@N03/11263991245/" title="ruby_runtime"><img src="http://farm4.staticflickr.com/3762/11263991245_cbbcf3305b_o.png" width="533" height="383" alt="ruby_runtime"></a>
+
+Once completed, open your web browser and navigate to [http://localhost:3000](http://localhost:3000).  You should receive a Welcome aboard, You're riding
 Ruby on Rails!
 
-### Application: Stage 1
+### Application: Stop Point 1 Summary
 
 We went through a lot of things very quickly.  Let's backtrack and summarize what we've accomplished so far.
 
+* We created a new application called "Wrails".
+* We updated the Gemfile which contains the gem packages our application will use.
+* Some of these gems include the following:
+
+     sass-rails: sass stylesheets (.scss) that we'll use with our app.
+     bcrypt-ruby: a solid password encryption lib that works with Activemodel.  We can use it later on when creating our authentication system.
+     jquery-rails: jQuery 1.10.x
+     foundation-rails: Foundation 5 provides a framework that allows others to build better designed future-friendly sites
+     mysql2: The MySQL2 gem that allows us to use MySQL with our app
+
+* We fixed an issue with execjs runtimes so that Microsoft Windows Script Host will work with Rails.
+* We edited our database.yml file to incorporate MySQL.
+* We created and migrated our development/test/production databases.
+* We started our app to find out that it works.
+
+### Using our new app as a playground
+
 TODO
+
 
