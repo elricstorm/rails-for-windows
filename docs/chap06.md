@@ -174,13 +174,15 @@ If you are prompted with a Windows Security Alert message, check both private an
 Once completed, open your web browser and navigate to [http://localhost:3000](http://localhost:3000).  You should receive a Welcome aboard, You're riding
 Ruby on Rails!
 
-### Application: Stop Point 1 Summary
+### Application: Summary
 
 We went through a lot of things very quickly.  Let's backtrack and summarize what we've accomplished so far.
 
 * We created a new application called "Wrails".
 * We updated the Gemfile which contains the gem packages our application will use.
 * Some of these gems include the following:
+
+Summary:
 
      sass-rails: sass stylesheets (.scss) that we'll use with our app.
      bcrypt-ruby: a solid password encryption lib that works with Activemodel.  We can use it later on when creating our authentication system.
