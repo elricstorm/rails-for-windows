@@ -59,6 +59,7 @@ choco gem rails
 
 # Install MySQL 5.6.14
 cinst mysql
+cmd /c start powershell -command {mysqladmin -u root password Passw0rd!}
 
 # open a new instance of powershell and install the mysql2 gem
 cmd /c start powershell -command {gem install --platform=ruby mysql2 -- --with-mysql-lib=C:\tools\mysql\mysql-5.6.15-win32\lib --with-mysql-include=C:\tools\mysql\mysql-5.6.15-win32\include}

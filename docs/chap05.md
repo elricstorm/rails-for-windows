@@ -74,25 +74,23 @@ Set Paths and Environment Variables
 Install Ruby and Ruby DevKit
 
      C:\> cinst ruby
-
-Close PS and reopen by right-clicking and choosing run as administrator
-
-     C:\> cinst ruby.devkit
+     C:\> cmd /c start powershell -command {cinst ruby.devkit}
 
 Install and update Gems and Rails
 
-     C:\> gem update --system
-     C:\> gem install rails
+     C:\> cmd /c start powershell -command {gem update --system}
+     C:\> choco gem rails
 
 Install MySQL and gems
 
      C:\> cinst mysql
+     C:\> cmd /c start powershell -command {mysqladmin -u root password Passw0rd!}
 
 When installing the mysql2 gem ensure that the statement below best reflects the package of mysql that was installed above.  The easiest way to find this out is to
 go to the C:\tools directory and see what the mysql version is on the folder.  At the time of this writing it is 5.6.15.  This may change.  If it does, substitute the
 correct version in the statement below.
 
-     C:\> gem install --platform=ruby mysql2 -- --with-mysql-lib=C:\tools\mysql\mysql-5.6.15-win32\lib --with-mysql-include=C:\tools\mysql\mysql-5.6.15-win32\include
+     C:\> cmd /c start powershell -command {gem install --platform=ruby mysql2 -- --with-mysql-lib=C:\tools\mysql\mysql-5.6.15-win32\lib --with-mysql-include=C:\tools\mysql\mysql-5.6.15-win32\include}
 
 Copy the libmysql.dll to the ruby200\bin directory (also keeping in mind that the version of mysql may have changed at the time of this writing it is 5.6.15)
 
