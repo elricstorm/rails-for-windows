@@ -43,7 +43,7 @@ web browser and navigate to the following URL:  [Rails 4 Windows Script](https:/
 we'll be installing.
 
 In order to use boxstarter via a gist script like this we need to find the raw text.  Click the <> raw text link to the upper right of the script.  You should see that the
-URL now shows:  https://gist.github.com/elricstorm/7853016/raw/250e2e03ab65a68bc0fdd2d2d91c7c26f4bd57c9/rails4windows.  We'll copy this and place this URL in a boxstarter
+URL now shows:  https://gist.github.com/elricstorm/7853016/raw/0044e705651fe770cdb76bd89a7154697ebdf473/rails4windows.  We'll copy this and place this URL in a boxstarter
 START command:
 
      PS C:\Windows\System32> START http://boxstarter.org/package/url?https://gist.github.com/elricstorm/7853016/raw/250e2e03ab65a68bc0fdd2d2d91c7c26f4bd57c9/rails4windows

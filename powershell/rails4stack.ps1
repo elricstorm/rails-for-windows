@@ -55,7 +55,7 @@ cmd /c start powershell -command {cinst ruby.devkit}
 cmd /c start powershell -command {gem update --system}
 
 # Install Rails
-choco gem rails
+cmd /c start powershell -command {gem install rails}
 
 # Install MySQL 5.6.14
 cinst mysql
