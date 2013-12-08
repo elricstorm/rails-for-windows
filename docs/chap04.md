@@ -38,50 +38,13 @@ When prompted, click Y for Yes and hit enter.  Now if you type Get-ExecutionPoli
 
 TODO
 
-#### Applying some manual fixes
+Once done, let's verify that mysql2 is working properly by opening IRB.
 
-##### Fix for execjs runtimes
+     C:\> irb
+     C:\> require 'mysql2'
+     => true
 
-ExecJS lets you run JavaScript code from Ruby. It automatically picks the best runtime available to evaluate your JavaScript program, then
-returns the result to you as a Ruby object.
+This should equal true.
 
-ExecJS supports these runtimes:
-
-* therubyracer - Google V8 embedded within Ruby
-* therubyrhino - Mozilla Rhino embedded within JRuby
-* Node.js
-* Apple JavaScriptCore - Included with Mac OS X
-* Microsoft Windows Script Host (JScript)
-
-At the time of this writing the code that would allow the Microsoft Windows Script Host to work with ExecJS is broken.  Here is a fix to
-get this working:
-
-Navigate to the following directory:
-
-     C:\Users\YourUserName\.gems\gems\execjs-2.0.2\lib\execjs\runtimes.rb  (open the runtimes.rb file)
-
-Find the following code
-
-````ruby
-    JScript = ExternalRuntime.new(
-      :name        => "JScript",
-      :command     => "cscript //E:jscript //Nologo //U",
-      :runner_path => ExecJS.root + "/support/jscript_runner.js",
-      :encoding    => 'UTF-16LE' # CScript with //U returns UTF-16LE
-    )
-````
-
-Change and edit it so that it looks like so:
-
-````ruby
-    JScript = ExternalRuntime.new(
-      :name        => "JScript",
-      :command     => "cscript //E:jscript //Nologo",
-      # :command     => "cscript //E:jscript //Nologo //U",
-      :runner_path => ExecJS.root + "/support/jscript_runner.js",
-      :encoding    => 'UTF-8'
-      # :encoding    => 'UTF-16LE' # CScript with //U returns UTF-16LE
-    )
-````
-
-Save this file and now the Windows Script Host will work with ExecJS.  Hopefully this will be fixed in a later version.
+If everything has gone fine so far, pat yourself on the back for a job well done!  The majority of the software you need has been installed.  Continue on in Chapter 06: Your
+First Rails App to find out how to use Ruby and Ruby on Rails.

@@ -47,3 +47,52 @@ end
 
      C:\> bundle
      C:\> rails g foundation:install
+
+#### Applying some manual fixes
+
+##### Fix for execjs runtimes
+
+ExecJS lets you run JavaScript code from Ruby. It automatically picks the best runtime available to evaluate your JavaScript program, then
+returns the result to you as a Ruby object.
+
+ExecJS supports these runtimes:
+
+* therubyracer - Google V8 embedded within Ruby
+* therubyrhino - Mozilla Rhino embedded within JRuby
+* Node.js
+* Apple JavaScriptCore - Included with Mac OS X
+* Microsoft Windows Script Host (JScript)
+
+At the time of this writing the code that would allow the Microsoft Windows Script Host to work with ExecJS is broken.  Here is a fix to
+get this working:
+
+Navigate to the following directory:
+
+     C:\Users\YourUserName\.gems\gems\execjs-2.0.2\lib\execjs\runtimes.rb  (open the runtimes.rb file)
+
+Find the following code
+
+````ruby
+    JScript = ExternalRuntime.new(
+      :name        => "JScript",
+      :command     => "cscript //E:jscript //Nologo //U",
+      :runner_path => ExecJS.root + "/support/jscript_runner.js",
+      :encoding    => 'UTF-16LE' # CScript with //U returns UTF-16LE
+    )
+````
+
+Change and edit it so that it looks like so:
+
+````ruby
+    JScript = ExternalRuntime.new(
+      :name        => "JScript",
+      :command     => "cscript //E:jscript //Nologo",
+      # :command     => "cscript //E:jscript //Nologo //U",
+      :runner_path => ExecJS.root + "/support/jscript_runner.js",
+      :encoding    => 'UTF-8'
+      # :encoding    => 'UTF-16LE' # CScript with //U returns UTF-16LE
+    )
+````
+
+Save this file and now the Windows Script Host will work with ExecJS.  Hopefully this will be fixed in a later version.
+
