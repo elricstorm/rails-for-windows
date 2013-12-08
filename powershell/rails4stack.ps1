@@ -67,7 +67,7 @@ cmd /c start powershell -command {gem install --platform=ruby mysql2 -- --with-m
 # Copy the libmysql.dll to the ruby200\bin directory
 Copy-Item -Path C:\tools\mysql\mysql-5.6.15-win32\lib\libmysql.dll -Destination c:\ruby200\bin
 
-# COMPLETED??
+# COMPLETED
 
 
 

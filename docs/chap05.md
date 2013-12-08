@@ -12,7 +12,7 @@ setup our PS environment for automated scripting in the future.
 @powershell -NoProfile -ExecutionPolicy unrestricted -Command "iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.ps1'))" && SET PATH=%PATH%;%systemdrive%\chocolatey\bin
 ````
 
-3. Open a CMD prompt and right-click and paste, hitting enter.  After the installation is completed, close the CMD prompt.
+3. Open a regular CMD prompt and right-click and paste, hitting enter.  After the installation is completed, close the CMD prompt.
 4. Click the **Windows** key on your keyboard and type "Powershell", right-click on "Windows PowerShell" and pin to the "taskbar".
 5. Click Desktop off the metro view window or just click the Windows key again on your keyboard to go back to the desktop.
 
