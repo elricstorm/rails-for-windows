@@ -148,7 +148,6 @@ test:
   username: root
   password: Passw0rd!
   host: localhost
-  port: 3400
 
 production:
   adapter: mysql2
@@ -163,6 +162,8 @@ After saving your file, let's create the database and migrate it.
 
      C:\Development\wrails> bundle exec rake db:create
      C:\Development\wrails> bundle exec rake db:migrate
+
+If you encounter any errors when trying to create your DB, attempt to set the
 
 #### Running your application
 
