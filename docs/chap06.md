@@ -16,9 +16,9 @@ and Chapter 05, visit those chapters and make sure to install the pre-requisites
 
 Our base application is going to be called **Wrails**, Windows on Rails.  You can name your app anything you would like.
 Don't be afraid to experiment as we move along in this chapter.  On my vm I've created a folder called Development where
-I'll be installing my rails apps.
+I'll be installing my rails apps.  Open up a normal command prompt and navigate to your directory.
 
-     PS C:\Development> rails new wrails
+     C:\Development> rails new wrails
 
 That's it.  You just created your first application.  We're done!
 
@@ -61,15 +61,15 @@ Once finished updating your gemfile you can run bundle to update and we can also
 
 First we'll run bundle to install all the gems and their dependencies:
 
-     PS C:\Development\wrails> bundle
+     C:\Development\wrails> bundle
 
 Then we'll install [jquery rails](https://github.com/rails/jquery-rails):
 
-     PS C:\Development\wrails> rails g jquery:install
+     C:\Development\wrails> rails g jquery:install
 
 Let's install [Foundation](http://foundation.zurb.com/).
 
-     PS C:\Development\wrails> rails g foundation:install
+     C:\Development\wrails> rails g foundation:install
 
 If prompted to overwrite any files, choose Y for yes.
 
