@@ -38,7 +38,7 @@ directory.  Double click it to open it.
 
 Add/Edit your Gemfile so it looks like this:
 
-     NOTE:  If any of the versions listed in our gemfile for the gems listed below are newer, simply update the versions below and then copy/paste them into your gemfile.
+_NOTE:  If any of the versions listed in our gemfile for the gems listed below are newer, simply update the versions below and then copy/paste them into your gemfile._
 
 ````ruby
 source 'https://rubygems.org'
@@ -98,7 +98,7 @@ get this working:
 
 Navigate to the following directory:
 
-     C:\Users\YourUserName\.gems\gems\execjs-2.0.2\lib\execjs\runtimes.rb  (open the runtimes.rb file)
+     C:\Users\YourUserName\.gems\gems\execjs-2.0.2\lib\execjs\runtimes.rb  (open runtimes.rb)
 
 Find the following code
 
@@ -204,7 +204,7 @@ to turn around and say okay, we're going to build a blog site, or even an admin 
 and break the paradigm.  After all, isn't coding and structure simply one large pattern or model?  Rails itself is a framework that utilizes Ruby as its core
 language.  But, if I've learned anything with Ruby over the years it is this philosophy:
 
-     Ideas are intangible objects that inherit and change at will.  They can bend, twist, strengthen, lighten, dissolve, and take any shape.  What shape do you imagine?
+_Ideas are intangible objects that inherit and change at will.  They can bend, twist, strengthen, lighten, dissolve, and take any shape.  What shape do you imagine?_
 
 So, what is our Rails application really?  Is it a carefully joined system of components that we maintain and design around?  Or, is it a large box of many different
 shapes that we can use to build whatever we want?  I would like to think that the latter is the better way to look at things, but let's take it one step further.
