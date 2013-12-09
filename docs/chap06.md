@@ -1,7 +1,6 @@
-## Chapter 06, Section 01:  Applications with Ruby on Rails
+## Chapter 06, Section 01:  Ruby on Rails
 
-In this chapter we'll focus on building a new rails app on windows.  Before we begin, here's the default stack we'll use
-for this particular application:
+In this chapter we'll focus on building a new rails app on windows.  Before we begin, here's the default stack we'll use for this particular application:
 
 * [jQuery](https://github.com/rails/jquery-rails)
 * [Foundation 5.x](https://github.com/zurb/foundation-rails)
