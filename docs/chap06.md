@@ -7,6 +7,8 @@ for this particular application:
 * [Foundation 5.x](https://github.com/zurb/foundation-rails)
 * [MySql](https://chocolatey.org/packages/mysql)
 
+Going forward, anytime I ask you to input a command, I'll add [enter] after the command to note that I want you to type the command and hit the enter key.
+
 ### Creating the Application
 
 If you haven't installed Ruby and Ruby on Rails using the Automated or Manual methods described and outlined in Chapter 04
@@ -18,7 +20,7 @@ Our base application is going to be called **Wrails**, Windows on Rails.  You ca
 Don't be afraid to experiment as we move along in this chapter.  On my vm I've created a folder called Development where
 I'll be installing my rails apps.  Open up a normal command prompt and navigate to your directory.
 
-     C:\Development> rails new wrails
+     C:\Development> rails new wrails   [enter]
 
 That's it.  You just created your first application.  We're done!
 
@@ -61,15 +63,15 @@ Once finished updating your gemfile you can run bundle to update and we can also
 
 First we'll run bundle to install all the gems and their dependencies:
 
-     C:\Development\wrails> bundle
+     C:\Development\wrails> bundle   [enter]
 
 Then we'll install [jquery rails](https://github.com/rails/jquery-rails):
 
-     C:\Development\wrails> rails g jquery:install
+     C:\Development\wrails> rails g jquery:install   [enter]
 
 Let's install [Foundation](http://foundation.zurb.com/).
 
-     C:\Development\wrails> rails g foundation:install
+     C:\Development\wrails> rails g foundation:install   [enter]
 
 If prompted to overwrite any files, choose Y for yes.
 
@@ -160,12 +162,12 @@ production:
 
 After saving your file, let's create the database and migrate it.
 
-     C:\Development\wrails> bundle exec rake db:create
-     C:\Development\wrails> bundle exec rake db:migrate
+     C:\Development\wrails> bundle exec rake db:create   [enter]
+     C:\Development\wrails> bundle exec rake db:migrate   [enter]
 
 #### Running your application
 
-     C:\Development\wrails> rails server
+     C:\Development\wrails> rails server   [enter]
 
 If you are prompted with a Windows Security Alert message, check both private and public networks and then click the **Allow access** button.
 
@@ -225,41 +227,52 @@ components.
 
 ### Windows
 
-We already know that Windows comes with PowerShell.  One very efficient thing we can use is PowerShell to help us with any type of command line interfacing we
-need to perform while building our application.  A very simple example would be "aliases".  We can create aliases that make sense to "us" and use these alias
+We already know that Windows comes with PowerShell.  One very efficient thing we can do with PowerShell is to use it with command line development while building our application.  PS houses many interesting ways to interface with our application.  A very simple example would be "aliases".  We can create aliases that make sense to "us" and use these alias
 commands to efficiently move in and around our application, or even simplify lengthy commands.  We can create functions that are used with aliases to do
 lengthy tasks with just a few keystrokes.  Here's an example and don't worry, what I'm going to show you won't affect your PS aliases permanently.
 
-Open a PS prompt as an administrator (right-click run as administrator).  Type alias and hit enter.  There are a lot of aliases built in already.  Type
-alias wget and hit enter.  Wget is an alias for Invoke-WebRequest.  Type alias sal and hit enter.  Sal is an alias for Set-Alias which allows you to set an
-alias for a command.  How about alias h and hit enter.  Let's play around a bit.  Type the following commands in a row:
+Open a PS prompt as an administrator (right-click run as administrator).  
 
-     PS C:\Users\IEUser> h
-     PS C:\Users\IEUser> alias r
-     PS C:\Users\IEUser> h
-     PS C:\Users\IEUser> r 2
+     PS C:\Users\IEUser> alias   [enter]
+
+There are a lot of aliases built in already.  
+
+     PS C:\Users\IEUser> alias wget   [enter]
+
+Wget is an alias for Invoke-WebRequest.  
+
+     PS C:\Users\IEUser> alias sal   [enter]
+
+Sal is an alias for Set-Alias which allows you to set an
+alias for a command.  Let's play around a bit.  Type the following commands in a row:
+
+     PS C:\Users\IEUser> alias h   [enter]
+     PS C:\Users\IEUser> h   [enter]
+     PS C:\Users\IEUser> alias r   [enter]
+     PS C:\Users\IEUser> h   [enter]
+     PS C:\Users\IEUser> r 2   [enter]
 
 You've just learned how to use Get-History and Invoke-History to retrieve commands that you did while using PS during this particular session.  Imagine that you were
 working for a full hour, typing different commands.  If you forgot whether or not you did a particular command, you can just find it by typing h and hitting enter.
 You can also repeat the command by typing r 2 (or the history ID for the command during this session).  You also learned that sal is the alias for Set-Alias so you can
 set your own aliases.
 
-     PS C:\Users\IEUser> help sal
+     PS C:\Users\IEUser> help sal -examples   [enter]
 
 I love helping Sal out in a bind.  These examples show you how to use Set-Alias, or Sal to create your own aliases.  I especially like the example that describes functions.  How
 about let's have a little bit of fun with creating a temporary alias.  This alias will only be good until you close the PS window.  Also I am using Sublime Text 3 as my
 example.  If you are using a different editor (like Sublime Text 2 or notepad), find the path to the executable and replace/swap that out in the line below.
 
-     PS C:\Users\IEUser> New-Item -Path $Profile -ItemType file -Force
-     PS C:\Users\IEUser> sal subl "C:\Program Files\Sublime Text 3\sublime_text.exe"
-     PS C:\Users\IEUser> function my-profile {subl $profile}
-     PS C:\Users\IEUser> sal myprofile my-profile
+     PS C:\Users\IEUser> New-Item -Path $Profile -ItemType file -Force   [enter]
+     PS C:\Users\IEUser> sal subl "C:\Program Files\Sublime Text 3\sublime_text.exe"   [enter]
+     PS C:\Users\IEUser> function my-profile {subl $profile}   [enter]
+     PS C:\Users\IEUser> sal myprofile my-profile   [enter]
 
 The first command creates a new profile for you that you can use to store your aliases in PowerShell.  The second command was the first alias I created and was called
 subl, short for sublime which will open Sublime Text 3.  The third command is a function I created called my-profile which simply forces sublime text to open my profile.
 And, finally, I created another alias called myprofile which runs the function my-profile.  Try it out:
 
-     PS C:\Users\IEUser> myprofile
+     PS C:\Users\IEUser> myprofile   [enter]
 
 You should now have a blank page called Microsoft.PowerShell_profile.ps1 open in Sublime.  You can store the commands we just made in it if you would like.  I would suggest
 you do it so that you can see how it works later on.  Store them one line at a time:
