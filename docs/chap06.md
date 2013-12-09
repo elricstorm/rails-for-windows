@@ -1,4 +1,4 @@
-## Chapter 06:  Your Rails App
+## Chapter 06, Section 01:  Applications with Ruby on Rails
 
 In this chapter we'll focus on building a new rails app on windows.  Before we begin, here's the default stack we'll use
 for this particular application:
