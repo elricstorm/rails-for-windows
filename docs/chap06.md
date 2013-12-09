@@ -187,9 +187,9 @@ We went through a lot of things very quickly.  Let's backtrack and summarize wha
 Summary:
 
      sass-rails: sass stylesheets (.scss) that we'll use with our app.
-     bcrypt-ruby: a solid password encryption lib that works with Activemodel.  We can use it later on when creating our authentication system.
+     bcrypt-ruby: a solid password encryption lib we can use when creating our authentication system.
      jquery-rails: jQuery 1.10.x
-     foundation-rails: Foundation 5 provides a framework that allows others to build better designed future-friendly sites
+     foundation-rails: Foundation 5 allows others to build better designed future-friendly sites.
      mysql2: The MySQL2 gem that allows us to use MySQL with our app
 
 * We fixed an issue with execjs runtimes so that Microsoft Windows Script Host will work with Rails.
